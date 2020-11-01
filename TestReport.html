@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/drvic10k/bootstrap-sortable/ff650fd1/Contents/bootstrap-sortable.css">
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/drvic10k/bootstrap-sortable/ff650fd1/Scripts/bootstrap-sortable.js"></script>
+    <script src="https://cdn.rawgit.com/drvic10k/bootstrap-sortable/ff650fd1/Scripts/moment.min.js"></script>
+    <style>
+      body {font-family: Arial, Helvetica, sans-serif;}
+
+      .thumbImg {
+        width: 100%;
+        max-width: 35px;
+        border-radius: 3px;
+        cursor: pointer;
+        margin-bottom: 5px;
+        border-width: 1px;
+        border-color: #f1f1f1;
+        border-style: solid;
+      }
+
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.7);
+      }
+
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+      }
+
+      .closeModal {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      .closeModal:hover,
+      .closeModal:focus {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="myModal" class="modal">
+      <span class="closeModal">&times;</span>
+      <img class="modal-content" id="modelImage">
+    </div>
+    <div class="container">
+
+      <h1 class="text-primary">TestCafe Test Summary</h1>
+      <div class="client-logo" style="padding:15px"></div>
+      <div class="bg-primary" style="padding:15px;box-shadow: 6px 6px 6px 6px #00000033;border-radius: 10px;">
+        <h3>Summary</h3><br>
+        <p class="lead">Start Time: Sun Nov 01 2020 17:52:53 GMT+0100 (Central European Standard Time)</p>
+        <p class="lead">Browsers: Chrome 86.0.4240.111 / Windows 10</p>
+        <p class="lead">Duration: 54s</p>
+        <p class="lead">Tests Failed: 0 out of 2</p>
+        <p class="lead">Tests Skipped: 46</p>
+      </div><br>
+      <table class="table sortable" style="padding:15px;box-shadow: 6px 6px 6px 6px #00000033;border-radius: 10px;">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Fixture</th>
+            <th>Test Name</th>
+            <th>Browsers</th>
+            <th>Duration</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+        <tbody>
+           <tr class="success">
+  <td>1</td>
+  <td>Check drag and drop</td>
+  <td>Valid peices are accisable as per turn</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>30s</td>
+  <td>passed</td>
+ </tr>
+ <tr class="warning">
+  <td>2</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Visiter user clicks on Quit game</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>3</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Main user clicks on Quit game</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>4</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Opponent user clicks on Quit game</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>5</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Main user Refresh the Live session</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>6</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Opponent user : Refresh the live session</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>7</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify when the MainUser user quits the session</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>8</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify when the MainUser user quits the session</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>9</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: E1 to A1</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>10</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: E1 to H1</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>11</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: E8 to H8</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>12</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: E8 to H8</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>13</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: After A1 is already moved once</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>14</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: After H1 is already moved once</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>15</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: After E1 is already moved once</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>16</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: After A8 is already moved once</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>17</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: After H8 is already moved once</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>18</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: After E8 is already moved once</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>19</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: After E8 is has been checked once</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>20</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting: After E1 is has been checked once</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>21</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify move direction: Knight</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>22</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify player can not move opponet peices</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>23</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify player can not move peices in wrong place</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>24</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify valid move direction : Knight</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>25</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify valid move direction : Rook</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>26</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify valid move direction : Bishop</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>27</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify valid move direction : King</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>28</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify valid move direction : Queen</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>29</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify valid move direction : Pawn</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>30</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify casting rules </td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>31</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify captures rules </td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>32</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>White to black: Verify move : check</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>33</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Black to White: Verify move : check</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>34</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Black to White: Verify move : check mate</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>35</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>White to black: Verify move : check mate</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>36</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>White player quits game: on his turn</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>37</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>White player quits game: Not on his turn</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>38</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>White player turn: server connection lost</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>39</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>black player turn: server connection lost</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>40</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>White player quits game: connection lost from server</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>41</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Black player quits game: connection lost from server</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>42</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Black player quits game: on his turn</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>43</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Black player quits game: Not on his turn</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>44</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify time over for : White</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>45</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify time over for : Black</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>46</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify time over for : White</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="warning">
+  <td>47</td>
+  <td>AdditionalFunctionalCases:</td>
+  <td>Verify time over for : Black</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>0s</td>
+  <td>skipped</td>
+ </tr>
+ <tr class="success">
+  <td>48</td>
+  <td>Check the intial board</td>
+  <td>Check chess board peices are set up correctly on match start</td>
+  <td>Chrome 86.0.4240.111 / Windows 10</td>
+  <td>24s</td>
+  <td>passed</td>
+ </tr>
+
+        </tbody>
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+      </table>
+      <br>
+      <h3>Error Details</h3>
+      
+    </div>
+    <script>
+      const modal = document.getElementById('myModal');
+      const modalImage = document.getElementById("modelImage");
+
+      Array.from(document.getElementsByClassName("thumbImg")).forEach(function(el) {
+        el.onclick = function() {
+          modal.style.display = "block";
+          modalImage.src = this.src;
+        }
+      });
+
+      document.getElementsByClassName("closeModal")[0].onclick = function() {
+        modal.style.display = "none";
+      }
+    </script>
+  </body>
+  <br>
+</html>
