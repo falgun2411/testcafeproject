@@ -21,6 +21,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.0",
+    "https": "^1.0.0",
+    "mongodb": "^3.6.3",
     "prettier": "^2.1.2",
     "testcafe": "^1.9.4",
     "testcafe-reporter-html": "^1.4.6",

@@ -29,7 +29,7 @@ fixture`Check the intial board`
 // 5. Checking chess board empty rows
 // 6. Checking chess board rows with peices
 
-test('Check chess board peices are set up correctly on match start', async t => {
+test.skip('Check chess board peices are set up correctly on match start', async t => {
     const button = Selector('button')
     const message = Selector("span")
     const message1 = Selector("span:nth-child(1)")

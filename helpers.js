@@ -1,10 +1,28 @@
 import { t, Selector } from 'testcafe';
+const axios = require('axios');
 
 export async function getButtonText(window) {
     await t.switchToWindow(window);
     const text = await Selector('button').innerText;
     return text
 }
+
+export async function getSessionDetails() {
+    const response = await axios.get('http://localhost:3000/api/lastsession');
+    return response
+}
+
+export async function verifyValueAndType(actual, expected) {
+
+    await t.expect(actual).eql(expected)
+    console.log('expected value' + expected + 'type of:' + typeof expected + ' -- actual value:' + actual + 'type of:' + typeof actual)
+    // await t.expect(actual).notTypeOf('undefined')
+    // await t.expect(actual).notEql('undefined')
+    await t.expect(actual).notEql('null')
+    await t.expect(actual).notEql('')
+
+}
+
 
 export async function performDragAndDrop(fromLocation, toLocation) {
     const fromLocationArray = fromLocation.split('');
@@ -19,12 +37,7 @@ export async function performDragAndDrop(fromLocation, toLocation) {
     const targetLocation = Selector(xpathTarget);
     var flag = true
     await t.dragToElement(sourceLocation, targetLocation, { speed: 0.01 })
-    // await t.wait(1000)
-    // if (await sourceLocation.exists) {
-    //     flag = false
-    // }
 
-    // return flag
 }
 
 export async function verifyPiecesExistInRow(row) {

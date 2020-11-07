@@ -15,7 +15,7 @@
 1. Node should be installed in your machine
 2. Unzip the project 
 3. install the testcafe with `npm i -g testcafe` or  `npm install --save dev testcafe`
-4. install the project with `npm i` 
+4. Go to Root Project install the project with `npm i` 
 
 
 #### Run
