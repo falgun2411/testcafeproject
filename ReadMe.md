@@ -13,11 +13,13 @@
 #### Setup
 
 1. Node.js should be installed in your machine
-2. Unzip the project 
-3. In terminal go to your root project directory 
+2. Go to https://github.com/falgun2411/testcafeproject
+3. Either download the project and unzip it in your machine 
+OR clone the project using git in your local machine https://github.com/falgun2411/testcafeproject.git
+4. In terminal go to your root project directory 
 (example: PS D:\AutomationProjects\testcafeproject>)
-3. install the testcafe with `npm i -g testcafe` or  `npm install --save dev testcafe`
-4. To install all project depedancy run : `npm i` 
+5. install the testcafe with `npm i -g testcafe` or  `npm install --save dev testcafe`
+6. To install all project depedancy run : `npm i` 
 
 
 #### Run
