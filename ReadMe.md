@@ -12,20 +12,30 @@
 
 #### Setup
 
-1. Node should be installed in your machine
+1. Node.js should be installed in your machine
 2. Unzip the project 
+3. In terminal go to your root project directory 
+(example: PS D:\AutomationProjects\testcafeproject>)
 3. install the testcafe with `npm i -g testcafe` or  `npm install --save dev testcafe`
-4. Go to Root Project install the project with `npm i` 
+4. To install all project depedancy run : `npm i` 
 
 
 #### Run
 
 * Prerequisite: 
-- The Server and database should be running : Front end  should be redirecting the application on the port 8080 
+- The Server and database should be running : Frontend  should be redirecting the application on the port 8080 
+1. in terminal go to your root project directory
+(example: PS D:\AutomationProjects\testcafeproject>)
+2. run  `npm run test` to run the tests
+3. run  `npm run generatereport` to see the test result
 
-* run  `npm run test:chrome` to run the tests
 
-#### Report
+#### Note:
+In ProjectRoot... , you will find helpers.js file.
+Line no 18,19,20 I have have not commented this code. Because there is a bug in the system which provides variable with undefined type .
+After commenting this code, all cases will be passed
 
-* After the test execution is completed check the TestReport generated at project root level. (.../testcafeproject/TestReport.html)
-* If case is faliled then failed screenshot is also attached to the report.
+    // console.log('expected value' + expected + 'type of:' + typeof expected + ' -- actual value:' + actual + 'type of:' + typeof actual)
+    // await t.expect(actual).notTypeOf('undefined', 'In Rest API response: value is stored with typeOf undefined ')
+    // await t.expect(expected).notTypeOf('undefined', 'In Database: value is stored with typeOf undefined ')
+  

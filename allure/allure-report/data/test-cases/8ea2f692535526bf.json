@@ -1,0 +1,52 @@
+{
+  "uid" : "8ea2f692535526bf",
+  "name" : "Player 3 can not access board on live game",
+  "fullName" : "Check if invlaid player can access board.Player 3 can not access board on live game",
+  "historyId" : "ddadb1942590b4f39984d6f1b0996b5d",
+  "time" : {
+    "start" : 1604780690208,
+    "stop" : 1604780690210,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "testClass",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "testMethod",
+    "value" : "Player 3 can not access board on live game"
+  }, {
+    "name" : "package",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8ea2f692535526bf.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

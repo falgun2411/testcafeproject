@@ -1,0 +1,52 @@
+{
+  "uid" : "5f7e56c7397d400b",
+  "name" : "Piece is not allowed to move: Out of board",
+  "fullName" : "Check valid moves.Piece is not allowed to move: Out of board",
+  "historyId" : "3f4debcf826e2a090f5237b60c6b20c2",
+  "time" : {
+    "start" : 1604781184085,
+    "stop" : 1604781214421,
+    "duration" : 30336
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "testClass",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "testMethod",
+    "value" : "Piece is not allowed to move: Out of board"
+  }, {
+    "name" : "package",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f7e56c7397d400b.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

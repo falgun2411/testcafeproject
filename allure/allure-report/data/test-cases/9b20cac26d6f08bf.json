@@ -1,0 +1,72 @@
+{
+  "uid" : "9b20cac26d6f08bf",
+  "name" : "Verify valid move direction : Bishop",
+  "fullName" : "AdditionalFunctionalCases:.Verify valid move direction : Bishop",
+  "historyId" : "cf3e36a3c6d168fbbfb3efdecbf08add",
+  "time" : {
+    "start" : 1604782046968,
+    "stop" : 1604782046970,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify valid move direction : Bishop"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1c3bc410df620101",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386352,
+        "stop" : 1604781386354,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f3b5a6aa48f0688c",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690360,
+        "stop" : 1604780690361,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b20cac26d6f08bf.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

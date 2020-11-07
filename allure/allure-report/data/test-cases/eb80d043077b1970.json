@@ -1,0 +1,72 @@
+{
+  "uid" : "eb80d043077b1970",
+  "name" : "Verify move direction: Knight",
+  "fullName" : "AdditionalFunctionalCases:.Verify move direction: Knight",
+  "historyId" : "5d37567ffa7be7206509c3009821e825",
+  "time" : {
+    "start" : 1604782046941,
+    "stop" : 1604782046942,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify move direction: Knight"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a9b4d9f7ed949c0f",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386326,
+        "stop" : 1604781386328,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "eb06b555544f95d7",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690334,
+        "stop" : 1604780690335,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb80d043077b1970.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

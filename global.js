@@ -6,7 +6,7 @@ class gloabal {
         this.__MONGO_DB_NAME__ = "chess_db"
         this.__MONGO_COLLECTION_NAME__ = "sessions"
         this.getSessionUri = "http://localhost:3000/api/lastsession"
-        this.baseUrl = "http://localhost:8080/"
+        this.BASE_URL = "http://localhost:8080/"
 
     }
 }

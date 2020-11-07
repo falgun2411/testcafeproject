@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "f0029474d16c4bf8656c1a8bff1fbe97",
+    "name" : "Check valid moves",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "beea9a128679c418e1fe368aa95d11a5",
+    "name" : "Check if invlaid player can access board",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 4,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "495729a73c8f5dd3cc260aaa80d52f03",
+    "name" : "Check the intial board",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "c93b3d16494d1e621c72b1f4c5dda01e",
+    "name" : "Check drag and drop",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "98c80198cf1d1816bdf19416e5e878eb",
+    "name" : "AdditionalFunctionalCases:",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 42,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 42
+    }
+  } ]
+}

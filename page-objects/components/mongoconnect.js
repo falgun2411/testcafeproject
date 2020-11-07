@@ -4,7 +4,7 @@ const GLOBAL = new gloabal()
 
 export async function getQueryData(query) {
     var query_result;
-    const client = await MongoClient.connect(GLOBAL.__MONGO_URI__, { useNewUrlParser: true })
+    const client = await MongoClient.connect(GLOBAL.__MONGO_URI__, { useNewUrlParser: true, useUnifiedTopology: true })
         .catch(err => { console.log(err); });
     if (!client) {
         return;

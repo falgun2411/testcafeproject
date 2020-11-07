@@ -1,0 +1,72 @@
+{
+  "uid" : "d91ca1e8c147464d",
+  "name" : "Black player quits game: Not on his turn",
+  "fullName" : "AdditionalFunctionalCases:.Black player quits game: Not on his turn",
+  "historyId" : "25be69b46632c5b780497a139f9f1cc0",
+  "time" : {
+    "start" : 1604782047057,
+    "stop" : 1604782047059,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Black player quits game: Not on his turn"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b71425be8460e735",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386445,
+        "stop" : 1604781386447,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "96d8a96793f39cd0",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690459,
+        "stop" : 1604780690460,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d91ca1e8c147464d.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

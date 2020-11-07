@@ -1,0 +1,72 @@
+{
+  "uid" : "5acf22d7e4de0e9b",
+  "name" : "Piece is not allowed to move: Out of board",
+  "fullName" : "Check valid moves.Piece is not allowed to move: Out of board",
+  "historyId" : "3f4debcf826e2a090f5237b60c6b20c2",
+  "time" : {
+    "start" : 1604781768185,
+    "stop" : 1604781798985,
+    "duration" : 30800
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "testClass",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "testMethod",
+    "value" : "Piece is not allowed to move: Out of board"
+  }, {
+    "name" : "package",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f7e56c7397d400b",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1604781184085,
+        "stop" : 1604781214421,
+        "duration" : 30336
+      }
+    }, {
+      "uid" : "bbbf148491fa78ee",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690167,
+        "stop" : 1604780690169,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5acf22d7e4de0e9b.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

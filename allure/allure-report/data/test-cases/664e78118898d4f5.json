@@ -1,0 +1,52 @@
+{
+  "uid" : "664e78118898d4f5",
+  "name" : "Player 1(WHITE) can not access BLACK peices on his turn",
+  "fullName" : "Check if invlaid player can access board.Player 1(WHITE) can not access BLACK peices on his turn",
+  "historyId" : "9a923d81c4544f97f68a11cc07c113ba",
+  "time" : {
+    "start" : 1604781386166,
+    "stop" : 1604781407554,
+    "duration" : 21388
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "testClass",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "testMethod",
+    "value" : "Player 1(WHITE) can not access BLACK peices on his turn"
+  }, {
+    "name" : "package",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "664e78118898d4f5.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

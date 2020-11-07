@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test:chrome": "testcafe chrome ./tests -s takeOnFails=true --reporter html:./TestReport.html",
+    "test:allure": "testcafe chrome ./tests -s takeOnFails=true --reporter allure",
     "test:chrome:5": "testcafe -c 5 chrome ./tests -s takeOnFails=true",
-    "test": "testcafe chrome ./tests -s takeOnFails=true --disable-page-caching --reporter html:./TestReport.html",
+    "test": "testcafe chrome ./tests -s takeOnFails=true --disable-page-caching --reporter allure",
     "test:safari": "testcafe safari ./tests",
     "test:firefox": "testcafe firefox ./tests",
     "test:chrome:hreadless": "testcafe chrome:headless ./tests",
     "test:multiple": "testcafe chrome,firefox ./tests",
-    "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X ./tests"
+    "test:chrome:mobile": "testcafe chrome:emulation:device=iphone X ./tests",
+    "generatereport": "allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report"
   },
   "keywords": [
     "Testcafe",
@@ -26,8 +28,10 @@
     "mongodb": "^3.6.3",
     "prettier": "^2.1.2",
     "testcafe": "^1.9.4",
+    "testcafe-reporter-allure": "^1.0.5",
     "testcafe-reporter-html": "^1.4.6",
     "testcafe-reporter-json": "^2.2.0",
-    "xpath-to-css": "^1.0.5"
+    "xpath-to-css": "^1.0.5",
+    "allure-commandline": "^2.13.0"
   }
 }

@@ -1,0 +1,52 @@
+{
+  "uid" : "e2c65bdf605b76ab",
+  "name" : "No Player can make 2 or more consecutive moves",
+  "fullName" : "Check valid moves.No Player can make 2 or more consecutive moves",
+  "historyId" : "94cf424d3afcb0dd0f49d604d1e6668e",
+  "time" : {
+    "start" : 1604780690161,
+    "stop" : 1604780690165,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "testClass",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "testMethod",
+    "value" : "No Player can make 2 or more consecutive moves"
+  }, {
+    "name" : "package",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2c65bdf605b76ab.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

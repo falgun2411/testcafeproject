@@ -1,0 +1,99 @@
+{
+  "uid" : "30fee84c0fa4e005",
+  "name" : "Verify when the MainUser user quits the session",
+  "fullName" : "AdditionalFunctionalCases:.Verify when the MainUser user quits the session",
+  "historyId" : "b0abe171e798a9bd3e30089b4e37b6c7",
+  "time" : {
+    "start" : 1604782046869,
+    "stop" : 1604782046870,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify when the MainUser user quits the session"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bf84e3d2dda2dc4f",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604782046864,
+        "stop" : 1604782046866,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8298962a3e98ea2c",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386252,
+        "stop" : 1604781386254,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "176ab9cf0ed36b61",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386246,
+        "stop" : 1604781386247,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1723df93ed358ff6",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690259,
+        "stop" : 1604780690261,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "ac82d00401ad7c91",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690254,
+        "stop" : 1604780690255,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30fee84c0fa4e005.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

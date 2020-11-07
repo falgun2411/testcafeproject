@@ -1,0 +1,72 @@
+{
+  "uid" : "9edef0f0a3a1a0c0",
+  "name" : "Opponent user : Refresh the live session",
+  "fullName" : "AdditionalFunctionalCases:.Opponent user : Refresh the live session",
+  "historyId" : "2fdb21faa9da0a28cccaeff083f5b113",
+  "time" : {
+    "start" : 1604782046859,
+    "stop" : 1604782046861,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Opponent user : Refresh the live session"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c2e268f6c9d1d9dd",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386240,
+        "stop" : 1604781386241,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ccfb5e7fb85c0d18",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690249,
+        "stop" : 1604780690250,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9edef0f0a3a1a0c0.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

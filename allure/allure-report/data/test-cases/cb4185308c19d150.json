@@ -1,0 +1,52 @@
+{
+  "uid" : "cb4185308c19d150",
+  "name" : "Black to White: Verify move : check",
+  "fullName" : "AdditionalFunctionalCases:.Black to White: Verify move : check",
+  "historyId" : "c2edb2ba67ee11881fc857d27ab6959d",
+  "time" : {
+    "start" : 1604780690399,
+    "stop" : 1604780690401,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Black to White: Verify move : check"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb4185308c19d150.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

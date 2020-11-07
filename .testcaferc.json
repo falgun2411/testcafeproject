@@ -1,5 +1,8 @@
 {
     "browsers": "chrome",
     "screenshotPath": "./screenshots",
-    "screenshotPathPattern": "${DATE}_${TIME}/${FIXTURE}/${TEST}.png"
+    "screenshotPathPattern": "${DATE}_${TIME}/${FIXTURE}/${TEST}.png",
+    "assertionTimeout": 5000,
+    "pageLoadTimeout": 10000,
+    "color": true
 }

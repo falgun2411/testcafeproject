@@ -62,7 +62,40 @@ class chessBoardPage {
         await t.dragToElement(from, to, { speed: 0.01 })
         await this.verifyMoveExists(to)
         await this.verifyMoveDoesNotExists(from)
+    }
 
+
+    async verifyPlayerDetails(playerNumber, isPlayerTurn) {
+
+        switch (playerNumber) {
+            case 1:
+                if (isPlayerTurn) {
+                    await this.verifyButton_Quit_game()
+                    await this.verifyMessage1("It's is your turn.")
+                    await this.verifyMessage2("You play the white pieces.")
+                } else {
+                    await this.verifyButton_Quit_game()
+                    await this.verifyMessage1("It is your opponent's turn.")
+                    await this.verifyMessage2("You play the white pieces.")
+                }
+
+                break;
+            case 2:
+                if (isPlayerTurn) {
+                    await this.verifyButton_Quit_game()
+                    await this.verifyMessage1("It's is your turn.")
+                    await this.verifyMessage2("You play the black pieces.")
+                } else {
+                    await this.verifyButton_Quit_game()
+                    await this.verifyMessage1("It is your opponent's turn.")
+                    await this.verifyMessage2("You play the black pieces.")
+                }
+                break;
+            case 3:
+                await this.verifyButton_Quit_game()
+                await this.verifyMessage("The game has already started.")
+                break;
+        }
     }
 
     async verifyMoveExists(path) {

@@ -1,0 +1,52 @@
+{
+  "uid" : "ee28f8f7fd68d331",
+  "name" : "Visiter user clicks on Quit game",
+  "fullName" : "AdditionalFunctionalCases:.Visiter user clicks on Quit game",
+  "historyId" : "2fcb93c4bce37bd3d42a0b23cc4b6bb8",
+  "time" : {
+    "start" : 1604781386217,
+    "stop" : 1604781386218,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Visiter user clicks on Quit game"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee28f8f7fd68d331.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

@@ -1,0 +1,72 @@
+{
+  "uid" : "f89d366440987822",
+  "name" : "Black player quits game: connection lost from server",
+  "fullName" : "AdditionalFunctionalCases:.Black player quits game: connection lost from server",
+  "historyId" : "5b02f1a4a398eb90fd69d5566a6b2306",
+  "time" : {
+    "start" : 1604782047046,
+    "stop" : 1604782047048,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Black player quits game: connection lost from server"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71b2353a0d035660",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386434,
+        "stop" : 1604781386435,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9da9c4fe53261596",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690447,
+        "stop" : 1604780690450,
+        "duration" : 3
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f89d366440987822.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

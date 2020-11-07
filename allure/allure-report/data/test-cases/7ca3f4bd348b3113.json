@@ -1,0 +1,52 @@
+{
+  "uid" : "7ca3f4bd348b3113",
+  "name" : "Main user Refresh the Live session",
+  "fullName" : "AdditionalFunctionalCases:.Main user Refresh the Live session",
+  "historyId" : "55d8d249b7e1a0145f77a7081a492a29",
+  "time" : {
+    "start" : 1604780690244,
+    "stop" : 1604780690246,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Main user Refresh the Live session"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ca3f4bd348b3113.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

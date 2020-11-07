@@ -1,0 +1,72 @@
+{
+  "uid" : "bc6b6658b28a1a58",
+  "name" : "Verify valid move direction : Rook",
+  "fullName" : "AdditionalFunctionalCases:.Verify valid move direction : Rook",
+  "historyId" : "3413cdf9db234b9ea3a889236f17a687",
+  "time" : {
+    "start" : 1604782046963,
+    "stop" : 1604782046965,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify valid move direction : Rook"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9d28f4f879088502",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386347,
+        "stop" : 1604781386349,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d438b06dd552f085",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690356,
+        "stop" : 1604780690358,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc6b6658b28a1a58.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

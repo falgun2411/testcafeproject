@@ -1,0 +1,70 @@
+{
+  "uid" : "f051f4dcbf86c895",
+  "name" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn",
+  "fullName" : "Check if invlaid player can access board.Player 1(WHITE) can not access BLACK peices on Player 2 turn",
+  "historyId" : "5ad429f128dee9e513727d4d152db30c",
+  "time" : {
+    "start" : 1604781364694,
+    "stop" : 1604781399211,
+    "duration" : 34517
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: expected undefined not to be an undefined",
+  "statusTrace" : "AssertionError: expected undefined not to be an undefined\n                \n                + expected - actual\n                \n                Browser: Chrome 86.0.4240.183 / Windows 10\n                Screenshot: D:\\AutomationProjects\\testcafeproject\\screenshots\\2020-11-07_21-31-33\\Check if invlaid player can access board\\Player 1(WHITE) can not access BLACK peices on Player 2 turn.png\n                \n                   14 |\n                   15 |export async function verifyValueAndType(actual, expected) {\n                   16 |\n                   17 |    await t.expect(actual).eql(expected)\n                   18 |    console.log('expected value' + expected + 'type of:' + typeof expected + ' -- actual value:' + actual + 'type of:' + typeof actual)\n                 > 19 |    await t.expect(actual).notTypeOf('undefined', 'In Rest API response: value is stored with typeOf undefined ')\n                   20 |    await t.expect(expected).notTypeOf('undefined', 'In Database: value is stored with typeOf undefined ')\n                   21 |    await t.expect(actual).notEql('undefined')\n                   22 |    await t.expect(actual).notEql('null')\n                   23 |    await t.expect(actual).notEql('')\n                   24 |\n                \n                   at <anonymous> (D:\\AutomationProjects\\testcafeproject\\helpers.js:19:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: expected undefined not to be an undefined",
+    "statusTrace" : "AssertionError: expected undefined not to be an undefined\n                \n                + expected - actual\n                \n                Browser: Chrome 86.0.4240.183 / Windows 10\n                Screenshot: D:\\AutomationProjects\\testcafeproject\\screenshots\\2020-11-07_21-31-33\\Check if invlaid player can access board\\Player 1(WHITE) can not access BLACK peices on Player 2 turn.png\n                \n                   14 |\n                   15 |export async function verifyValueAndType(actual, expected) {\n                   16 |\n                   17 |    await t.expect(actual).eql(expected)\n                   18 |    console.log('expected value' + expected + 'type of:' + typeof expected + ' -- actual value:' + actual + 'type of:' + typeof actual)\n                 > 19 |    await t.expect(actual).notTypeOf('undefined', 'In Rest API response: value is stored with typeOf undefined ')\n                   20 |    await t.expect(expected).notTypeOf('undefined', 'In Database: value is stored with typeOf undefined ')\n                   21 |    await t.expect(actual).notEql('undefined')\n                   22 |    await t.expect(actual).notEql('null')\n                   23 |    await t.expect(actual).notEql('')\n                   24 |\n                \n                   at <anonymous> (D:\\AutomationProjects\\testcafeproject\\helpers.js:19:28)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f4ec05f8f68db9e",
+      "name" : "Screenshot",
+      "source" : "1f4ec05f8f68db9e.png",
+      "type" : "image/png",
+      "size" : 179286
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "testClass",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "testMethod",
+    "value" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn"
+  }, {
+    "name" : "package",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f051f4dcbf86c895.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

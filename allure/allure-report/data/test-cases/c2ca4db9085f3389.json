@@ -1,0 +1,72 @@
+{
+  "uid" : "c2ca4db9085f3389",
+  "name" : "Verify casting: After E8 is has been checked once",
+  "fullName" : "AdditionalFunctionalCases:.Verify casting: After E8 is has been checked once",
+  "historyId" : "713526ef7174fb9c5b7536d1d6891d71",
+  "time" : {
+    "start" : 1604782046931,
+    "stop" : 1604782046933,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify casting: After E8 is has been checked once"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8d30969ea0314e05",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386314,
+        "stop" : 1604781386316,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "db4be82668e8ed8c",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690324,
+        "stop" : 1604780690325,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2ca4db9085f3389.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

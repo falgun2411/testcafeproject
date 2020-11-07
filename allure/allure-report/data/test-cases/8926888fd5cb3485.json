@@ -1,0 +1,52 @@
+{
+  "uid" : "8926888fd5cb3485",
+  "name" : "Verify casting: After A1 is already moved once",
+  "fullName" : "AdditionalFunctionalCases:.Verify casting: After A1 is already moved once",
+  "historyId" : "b65224bd3075cd78aebfb93eec6908f1",
+  "time" : {
+    "start" : 1604780690289,
+    "stop" : 1604780690291,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify casting: After A1 is already moved once"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8926888fd5cb3485.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

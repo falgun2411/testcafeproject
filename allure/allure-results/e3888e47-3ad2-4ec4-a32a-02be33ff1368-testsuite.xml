@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604781153706' stop='1604781153732'>
+    <name>Check valid moves</name>
+    <title>Check valid moves</title>
+    <test-cases>
+        <test-case start='1604781153706' status='failed' stop='1604781188760'>
+            <name>No Player can make 2 or more consecutive moves</name>
+            <title>No Player can make 2 or more consecutive moves</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 86.0.4240.183 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cbd85193-fdbf-494e-a0b4-4e3c9fa0e442-attachment.png' type='image/png' size='179286'/>
+            </attachments>
+            <failure>
+                <message>AssertionError: expected undefined not to be an undefined</message>
+                <stack-trace>AssertionError: expected undefined not to be an undefined
+                
+                + expected - actual
+                
+                Browser: Chrome 86.0.4240.183 / Windows 10
+                Screenshot: D:\AutomationProjects\testcafeproject\screenshots\2020-11-07_21-31-33\Check valid moves\No Player can make 2 or more consecutive moves.png
+                
+                   14 |
+                   15 |export async function verifyValueAndType(actual, expected) {
+                   16 |
+                   17 |    await t.expect(actual).eql(expected)
+                   18 |    console.log('expected value' + expected + 'type of:' + typeof expected + ' -- actual value:' + actual + 'type of:' + typeof actual)
+                 > 19 |    await t.expect(actual).notTypeOf('undefined')
+                   20 |    await t.expect(expected).notTypeOf('undefined')
+                   21 |    await t.expect(actual).notEql('undefined')
+                   22 |    await t.expect(actual).notEql('null')
+                   23 |    await t.expect(actual).notEql('')
+                   24 |
+                
+                   at &lt;anonymous> (D:\AutomationProjects\testcafeproject\helpers.js:19:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

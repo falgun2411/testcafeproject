@@ -1,0 +1,52 @@
+{
+  "uid" : "a6b0f38c05c43842",
+  "name" : "Verify time over for : White",
+  "fullName" : "AdditionalFunctionalCases:.Verify time over for : White",
+  "historyId" : "8c4c35f08660ff602e7d3629d1379a1a",
+  "time" : {
+    "start" : 1604781386460,
+    "stop" : 1604781386462,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify time over for : White"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6b0f38c05c43842.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

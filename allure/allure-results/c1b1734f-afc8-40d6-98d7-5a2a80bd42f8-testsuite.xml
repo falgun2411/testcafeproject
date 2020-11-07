@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604781364694' stop='1604781364726'>
+    <name>Check if invlaid player can access board</name>
+    <title>Check if invlaid player can access board</title>
+    <test-cases>
+        <test-case start='1604781364694' status='failed' stop='1604781399211'>
+            <name>Player 1(WHITE) can not access BLACK peices on Player 2 turn</name>
+            <title>Player 1(WHITE) can not access BLACK peices on Player 2 turn</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 86.0.4240.183 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='85fafb62-65be-46e7-a625-c5c02c6d8612-attachment.png' type='image/png' size='179286'/>
+            </attachments>
+            <failure>
+                <message>AssertionError: expected undefined not to be an undefined</message>
+                <stack-trace>AssertionError: expected undefined not to be an undefined
+                
+                + expected - actual
+                
+                Browser: Chrome 86.0.4240.183 / Windows 10
+                Screenshot: D:\AutomationProjects\testcafeproject\screenshots\2020-11-07_21-31-33\Check if invlaid player can access board\Player 1(WHITE) can not access BLACK peices on Player 2 turn.png
+                
+                   14 |
+                   15 |export async function verifyValueAndType(actual, expected) {
+                   16 |
+                   17 |    await t.expect(actual).eql(expected)
+                   18 |    console.log('expected value' + expected + 'type of:' + typeof expected + ' -- actual value:' + actual + 'type of:' + typeof actual)
+                 > 19 |    await t.expect(actual).notTypeOf('undefined', 'In Rest API response: value is stored with typeOf undefined ')
+                   20 |    await t.expect(expected).notTypeOf('undefined', 'In Database: value is stored with typeOf undefined ')
+                   21 |    await t.expect(actual).notEql('undefined')
+                   22 |    await t.expect(actual).notEql('null')
+                   23 |    await t.expect(actual).notEql('')
+                   24 |
+                
+                   at &lt;anonymous> (D:\AutomationProjects\testcafeproject\helpers.js:19:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

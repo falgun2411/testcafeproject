@@ -1,0 +1,72 @@
+{
+  "uid" : "6e97b8a69812511",
+  "name" : "White player turn: server connection lost",
+  "fullName" : "AdditionalFunctionalCases:.White player turn: server connection lost",
+  "historyId" : "94562f1c360541aea3b31a46ace4c418",
+  "time" : {
+    "start" : 1604782047031,
+    "stop" : 1604782047033,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "White player turn: server connection lost"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "76929f75ebbe4847",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386418,
+        "stop" : 1604781386419,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cce08e09664c5efb",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690428,
+        "stop" : 1604780690429,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e97b8a69812511.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

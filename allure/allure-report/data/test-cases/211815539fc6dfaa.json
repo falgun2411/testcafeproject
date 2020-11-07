@@ -1,0 +1,52 @@
+{
+  "uid" : "211815539fc6dfaa",
+  "name" : "Verify casting: After E8 is already moved once",
+  "fullName" : "AdditionalFunctionalCases:.Verify casting: After E8 is already moved once",
+  "historyId" : "1d70949ba147ed18ed28dd2614cd792",
+  "time" : {
+    "start" : 1604780690319,
+    "stop" : 1604780690321,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify casting: After E8 is already moved once"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "211815539fc6dfaa.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

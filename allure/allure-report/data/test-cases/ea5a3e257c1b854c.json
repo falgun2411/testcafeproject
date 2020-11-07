@@ -1,0 +1,72 @@
+{
+  "uid" : "ea5a3e257c1b854c",
+  "name" : "Piece is allowed to move: to a square where opponent’s piece is placed",
+  "fullName" : "Check valid moves.Piece is allowed to move: to a square where opponent’s piece is placed",
+  "historyId" : "844edcfdd86a2ff64d581707c2e3948d",
+  "time" : {
+    "start" : 1604781809249,
+    "stop" : 1604781850284,
+    "duration" : 41035
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "testClass",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "testMethod",
+    "value" : "Piece is allowed to move: to a square where opponent’s piece is placed"
+  }, {
+    "name" : "package",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e96c325cf86ad5bd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected undefined not to be an undefined",
+      "time" : {
+        "start" : 1604781225925,
+        "stop" : 1604781267711,
+        "duration" : 41786
+      }
+    }, {
+      "uid" : "3e70106777cb0034",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690172,
+        "stop" : 1604780690174,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea5a3e257c1b854c.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

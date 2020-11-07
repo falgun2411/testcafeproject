@@ -1,0 +1,72 @@
+{
+  "uid" : "7d79f5844f9f4ffe",
+  "name" : "White to black: Verify move : check",
+  "fullName" : "AdditionalFunctionalCases:.White to black: Verify move : check",
+  "historyId" : "2337476d4701fc74e7b805eb4da743ee",
+  "time" : {
+    "start" : 1604782046999,
+    "stop" : 1604782047001,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testClass",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "testMethod",
+    "value" : "White to black: Verify move : check"
+  }, {
+    "name" : "package",
+    "value" : "AdditionalFunctionalCases:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f300d00066afbc10",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604781386385,
+        "stop" : 1604781386387,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "21f397d2358003d8",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690392,
+        "stop" : 1604780690393,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d79f5844f9f4ffe.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

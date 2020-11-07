@@ -1,0 +1,52 @@
+{
+  "uid" : "96754e3a361a3d30",
+  "name" : "Player 2 can not access board upon Player 1 Turn",
+  "fullName" : "Check if invlaid player can access board.Player 2 can not access board upon Player 1 Turn",
+  "historyId" : "982f086433424d1e9d5eec90f5f556bc",
+  "time" : {
+    "start" : 1604781386212,
+    "stop" : 1604781386214,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "This test has been skipped.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "testClass",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "testMethod",
+    "value" : "Player 2 can not access board upon Player 1 Turn"
+  }, {
+    "name" : "package",
+    "value" : "Check if invlaid player can access board"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96754e3a361a3d30.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}

@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1604780690371' stop='1604780690371'>
+    <name>AdditionalFunctionalCases:</name>
+    <title>AdditionalFunctionalCases:</title>
+    <test-cases>
+        <test-case start='1604780690371' status='skipped' stop='1604780690372'>
+            <name>Verify valid move direction : Queen</name>
+            <title>Verify valid move direction : Queen</title>
+            <labels>
+                <label name='severity' value='undefined'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='User Agent' value='Chrome 86.0.4240.183 / Windows 10'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test has been skipped.</message>
+                <stack-trace>no error</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

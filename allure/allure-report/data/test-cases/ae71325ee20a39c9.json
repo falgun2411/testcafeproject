@@ -1,0 +1,72 @@
+{
+  "uid" : "ae71325ee20a39c9",
+  "name" : "No Player can make 2 or more consecutive moves",
+  "fullName" : "Check valid moves.No Player can make 2 or more consecutive moves",
+  "historyId" : "94cf424d3afcb0dd0f49d604d1e6668e",
+  "time" : {
+    "start" : 1604781737341,
+    "stop" : 1604781809226,
+    "duration" : 71885
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "undefined"
+  }, {
+    "name" : "suite",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "testClass",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "testMethod",
+    "value" : "No Player can make 2 or more consecutive moves"
+  }, {
+    "name" : "package",
+    "value" : "Check valid moves"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "User Agent",
+    "value" : "Chrome 86.0.4240.183 / Windows 10"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5342cdb0c9f6d0e6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected undefined not to be an undefined",
+      "time" : {
+        "start" : 1604781153706,
+        "stop" : 1604781188760,
+        "duration" : 35054
+      }
+    }, {
+      "uid" : "e2c65bdf605b76ab",
+      "status" : "skipped",
+      "statusDetails" : "This test has been skipped.",
+      "time" : {
+        "start" : 1604780690161,
+        "stop" : 1604780690165,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae71325ee20a39c9.json",
+  "parameterValues" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+}
