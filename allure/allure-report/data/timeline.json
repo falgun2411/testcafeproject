@@ -2,294 +2,8 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "Verify casting: After H1 is already moved once",
-    "uid" : "7f4eb828641c5dea",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690294,
-      "stop" : 1604780690296,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify time over for : Black",
-    "uid" : "a623b49319544f5d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047079,
-      "stop" : 1604782047081,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify when the MainUser user quits the session",
-    "uid" : "30fee84c0fa4e005",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046869,
-      "stop" : 1604782046870,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify when the MainUser user quits the session",
-    "uid" : "bf84e3d2dda2dc4f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046864,
-      "stop" : 1604782046866,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Opponent user : Refresh the live session",
-    "uid" : "9edef0f0a3a1a0c0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046859,
-      "stop" : 1604782046861,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "No Player can make 2 or more consecutive moves",
-    "uid" : "e2c65bdf605b76ab",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690161,
-      "stop" : 1604780690165,
-      "duration" : 4
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player quits game: on his turn",
-    "uid" : "16bc824d6156f5bc",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386408,
-      "stop" : 1604781386410,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Check chess board peices are set up correctly on match start",
-    "uid" : "3dc8a7b7377561f3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604780690083,
-      "stop" : 1604780713853,
-      "duration" : 23770
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Pawn",
-    "uid" : "9788f07435ee536e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046983,
-      "stop" : 1604782046985,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Piece is not allowed to move: Out of board",
-    "uid" : "5f7e56c7397d400b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604781184085,
-      "stop" : 1604781214421,
-      "duration" : 30336
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player quits game: connection lost from server",
-    "uid" : "5720cefef4007c87",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690441,
-      "stop" : 1604780690442,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After E1 is has been checked once",
-    "uid" : "5c0cf0d9de18f7dc",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046936,
-      "stop" : 1604782046937,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn",
-    "uid" : "f051f4dcbf86c895",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1604781364694,
-      "stop" : 1604781399211,
-      "duration" : 34517
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Main user clicks on Quit game",
-    "uid" : "627ad2c3de373e3c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690233,
-      "stop" : 1604780690235,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black to White: Verify move : check mate",
-    "uid" : "413d9a6e404bad49",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047010,
-      "stop" : 1604782047012,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: E1 to A1",
-    "uid" : "c4fee0b4fd633b94",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386257,
-      "stop" : 1604781386259,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify player can not move peices in wrong place",
-    "uid" : "32f0dcb9feae86b6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690345,
-      "stop" : 1604780690346,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn",
-    "uid" : "2e06aa99af4488e8",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690194,
-      "stop" : 1604780690196,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify player can not move opponet peices",
-    "uid" : "bc6794997c576686",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386332,
-      "stop" : 1604781386334,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify player can not move peices in wrong place",
-    "uid" : "46dc034b045fa482",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046952,
-      "stop" : 1604782046953,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black player quits game: connection lost from server",
-    "uid" : "9da9c4fe53261596",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690447,
-      "stop" : 1604780690450,
-      "duration" : 3
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify player can not move peices in wrong place",
-    "uid" : "695bb4d4d339c407",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386337,
-      "stop" : 1604781386339,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
     "name" : "Verify casting: After H8 is already moved once",
-    "uid" : "1d86be437d24d885",
+    "uid" : "12b755f499cac31f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -301,255 +15,21 @@
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Black player quits game: Not on his turn",
-    "uid" : "96d8a96793f39cd0",
+    "name" : "Verify casting: E1 to H1",
+    "uid" : "db85284c71e573fb",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1604780690459,
-      "stop" : 1604780690460,
+      "start" : 1604780690270,
+      "stop" : 1604780690271,
       "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 2 can not access board upon Player 1 Turn",
-    "uid" : "e5c297e0b8929fdf",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386206,
-      "stop" : 1604781386208,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Piece is allowed to move: to a square where opponent’s piece is placed",
-    "uid" : "e96c325cf86ad5bd",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1604781225925,
-      "stop" : 1604781267711,
-      "duration" : 41786
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify time over for : Black",
-    "uid" : "2359ccdcac7da0c9",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386454,
-      "stop" : 1604781386455,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify time over for : Black",
-    "uid" : "65130bf1dccd6a4",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690474,
-      "stop" : 1604780690475,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify time over for : Black",
-    "uid" : "874ce8cbf1b15f3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047067,
-      "stop" : 1604782047068,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White to black: Verify move : check",
-    "uid" : "f300d00066afbc10",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386385,
-      "stop" : 1604781386387,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Main user clicks on Quit game",
-    "uid" : "8c58af23d6a39b9a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386223,
-      "stop" : 1604781386225,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Main user Refresh the Live session",
-    "uid" : "f4fa34801282b13d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386235,
-      "stop" : 1604781386237,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White to black: Verify move : check",
-    "uid" : "7d79f5844f9f4ffe",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046999,
-      "stop" : 1604782047001,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Rook",
-    "uid" : "9d28f4f879088502",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386347,
-      "stop" : 1604781386349,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After H8 is already moved once",
-    "uid" : "c3c6c01b0b60877",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690313,
-      "stop" : 1604780690314,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After E8 is already moved once",
-    "uid" : "bb5d421aae244d82",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386308,
-      "stop" : 1604781386310,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Rook",
-    "uid" : "d438b06dd552f085",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690356,
-      "stop" : 1604780690358,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "No Player can make 2 or more consecutive moves",
-    "uid" : "5342cdb0c9f6d0e6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1604781153706,
-      "stop" : 1604781188760,
-      "duration" : 35054
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player quits game: Not on his turn",
-    "uid" : "c417e4a8270a9e6c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690423,
-      "stop" : 1604780690425,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Piece is not allowed to move: to a square where own piece is placed",
-    "uid" : "3db9e5c5207aa6fd",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604781922890,
-      "stop" : 1604781979457,
-      "duration" : 56567
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black to White: Verify move : check",
-    "uid" : "87fa52e39ad06411",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047004,
-      "stop" : 1604782047005,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify when the MainUser user quits the session",
-    "uid" : "8298962a3e98ea2c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386252,
-      "stop" : 1604781386254,
-      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
     "name" : "Verify casting: After E1 is already moved once",
-    "uid" : "b23e83774d5e2b33",
+    "uid" : "15a5c78c7ca70800",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -561,26 +41,234 @@
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Verify casting: After E1 is has been checked once",
-    "uid" : "1158648059d6a872",
+    "name" : "Verify when the MainUser user quits the session",
+    "uid" : "81f80ae8e068ab12",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1604781386319,
-      "stop" : 1604781386320,
+      "start" : 1604781386246,
+      "stop" : 1604781386247,
       "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Verify casting: E8 to H8",
-    "uid" : "fb6b37e9c99d91a6",
+    "name" : "Verify when the MainUser user quits the session",
+    "uid" : "d936c9b991a59ee4",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1604781386276,
-      "stop" : 1604781386278,
+      "start" : 1604781386252,
+      "stop" : 1604781386254,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: connection lost from server",
+    "uid" : "f65d5eea8f470445",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047041,
+      "stop" : 1604782047043,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E8 to H8",
+    "uid" : "a1d5382f659433a1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046891,
+      "stop" : 1604782046892,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify move direction: Knight",
+    "uid" : "874dfe68b9217695",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046941,
+      "stop" : 1604782046942,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White to black: Verify move : check mate",
+    "uid" : "b87cca744db60e56",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386403,
+      "stop" : 1604781386405,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: on his turn",
+    "uid" : "a9606d09ea38851e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690418,
+      "stop" : 1604780690421,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After H1 is already moved once",
+    "uid" : "8fbb22d21e9867a3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046903,
+      "stop" : 1604782046904,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After H8 is already moved once",
+    "uid" : "5b48e0437da60662",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690313,
+      "stop" : 1604780690314,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1(WHITE) can not access BLACK peices on his turn",
+    "uid" : "2d49ca516369a9f8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604782046787,
+      "stop" : 1604782067979,
+      "duration" : 21192
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify player can not move opponet peices",
+    "uid" : "30d4e85ce065ca0e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522574,
+      "stop" : 1604783522576,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify captures rules ",
+    "uid" : "20b0b9b0c04f61f9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386379,
+      "stop" : 1604781386381,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Pawn",
+    "uid" : "683fbf261c58cfe1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690377,
+      "stop" : 1604780690379,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: Out of board",
+    "uid" : "161988371638782d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604783244016,
+      "stop" : 1604783274437,
+      "duration" : 30421
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : Black",
+    "uid" : "9f846604da8d05e8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690474,
+      "stop" : 1604780690475,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Opponent user : Refresh the live session",
+    "uid" : "fb97b7243aec30a2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386240,
+      "stop" : 1604781386241,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Check chess board peices are set up correctly on match start",
+    "uid" : "4d37a5b140f9e075",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604783140906,
+      "stop" : 1604783165628,
+      "duration" : 24722
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E8 is has been checked once",
+    "uid" : "f208ee88074222a7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046931,
+      "stop" : 1604782046933,
       "duration" : 2
     },
     "flaky" : false,
@@ -588,33 +276,72 @@
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
     "name" : "Verify time over for : Black",
-    "uid" : "9673edce9747d22b",
+    "uid" : "a261b2cc9c8d98e0",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1604780690487,
-      "stop" : 1604780690489,
+      "start" : 1604783522711,
+      "stop" : 1604783522713,
       "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Piece is not allowed to move: to a square where a king is placed",
-    "uid" : "8794eacc9258eccc",
+    "name" : "Verify casting: After H8 is already moved once",
+    "uid" : "df9b118e0ed1d182",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386302,
+      "stop" : 1604781386304,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : Black",
+    "uid" : "df0d8fa468ede7f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522725,
+      "stop" : 1604783522727,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is allowed to move: to a square where opponent’s piece is placed",
+    "uid" : "4b19f30580a1cd34",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1604781866262,
-      "stop" : 1604781923200,
-      "duration" : 56938
+      "start" : 1604783284753,
+      "stop" : 1604783325380,
+      "duration" : 40627
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify when the MainUser user quits the session",
+    "uid" : "9425ad33933b5aa3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046869,
+      "stop" : 1604782046870,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
     "name" : "Verify valid move direction : King",
-    "uid" : "a103acf434ac8ad8",
+    "uid" : "9c31cbfc76a201fe",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -626,8 +353,645 @@
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
+    "name" : "Verify casting: After E8 is already moved once",
+    "uid" : "d4553c00393d47c4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522553,
+      "stop" : 1604783522555,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After A8 is already moved once",
+    "uid" : "cc8dbf3454bcb60e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522541,
+      "stop" : 1604783522542,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E1 to H1",
+    "uid" : "765d8b439e6ffde9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046881,
+      "stop" : 1604782046883,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: to a square where a king is placed",
+    "uid" : "28e184873ca30785",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604781866262,
+      "stop" : 1604781923200,
+      "duration" : 56938
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1(WHITE) can not access BLACK peices on his turn",
+    "uid" : "3a2b87891a25e354",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690199,
+      "stop" : 1604780690201,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: on his turn",
+    "uid" : "aec6bbdc3600abb0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386408,
+      "stop" : 1604781386410,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: connection lost from server",
+    "uid" : "2e6b16303c1f062d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690441,
+      "stop" : 1604780690442,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Rook",
+    "uid" : "65025324c73e90e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522590,
+      "stop" : 1604783522592,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White to black: Verify move : check mate",
+    "uid" : "6f66ecf0692d421d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522649,
+      "stop" : 1604783522651,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 2 can access board on his turn",
+    "uid" : "e298577eff3408b9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046809,
+      "stop" : 1604782046811,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: connection lost from server",
+    "uid" : "7088f256dc898476",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386429,
+      "stop" : 1604781386430,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 3 can not access board on live game",
+    "uid" : "74afeada0c6b4605",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690208,
+      "stop" : 1604780690210,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : Black",
+    "uid" : "5a717a3146e5a691",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047067,
+      "stop" : 1604782047068,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : Black",
+    "uid" : "288d2ea3b403d1ce",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047079,
+      "stop" : 1604782047081,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "No Player can make 2 or more consecutive moves",
+    "uid" : "bcdf01befc6ea2b6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604781153706,
+      "stop" : 1604781188760,
+      "duration" : 35054
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E8 to H8",
+    "uid" : "b4b1c7057f5ef2d8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690283,
+      "stop" : 1604780690285,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Valid peices are accisable as per turn",
+    "uid" : "a09e3d0e8678240c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604783463892,
+      "stop" : 1604783530517,
+      "duration" : 66625
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn",
+    "uid" : "c3fa706bd604b258",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604782025514,
+      "stop" : 1604782061965,
+      "duration" : 36451
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : Black",
+    "uid" : "22bcab80bfc5ef7d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690487,
+      "stop" : 1604780690489,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify when the MainUser user quits the session",
+    "uid" : "24f796a7be48ec97",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522490,
+      "stop" : 1604783522493,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White to black: Verify move : check",
+    "uid" : "8d8774dd1a36beae",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046999,
+      "stop" : 1604782047001,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Visiter user clicks on Quit game",
+    "uid" : "ca61ae84012aa7a9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690228,
+      "stop" : 1604780690230,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After A1 is already moved once",
+    "uid" : "4cdbed77ee3aae87",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046898,
+      "stop" : 1604782046899,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After A1 is already moved once",
+    "uid" : "1c38ba09ce356bf6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386281,
+      "stop" : 1604781386283,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black player quits game: Not on his turn",
+    "uid" : "128a399a2d27bd65",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047057,
+      "stop" : 1604782047059,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "No Player can make 2 or more consecutive moves",
+    "uid" : "c2823b1dbc97336a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604781737341,
+      "stop" : 1604781809226,
+      "duration" : 71885
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black to White: Verify move : check",
+    "uid" : "b923a9f5fb06b60c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522637,
+      "stop" : 1604783522639,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify captures rules ",
+    "uid" : "214cff0531e23c7a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046994,
+      "stop" : 1604782046996,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E8 is has been checked once",
+    "uid" : "a979601d6770e1c7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522558,
+      "stop" : 1604783522560,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Opponent user clicks on Quit game",
+    "uid" : "f2b0b02bdbcc29d9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690238,
+      "stop" : 1604780690240,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: Out of board",
+    "uid" : "6266e6175cd240cf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604781184085,
+      "stop" : 1604781214421,
+      "duration" : 30336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify player can not move peices in wrong place",
+    "uid" : "7859ad9336323a0e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046952,
+      "stop" : 1604782046953,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E8 to H8",
+    "uid" : "9f6565f1a3cb3b62",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386276,
+      "stop" : 1604781386278,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: connection lost from server",
+    "uid" : "9e607c655ae6ee15",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522677,
+      "stop" : 1604783522679,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
     "name" : "Verify time over for : White",
-    "uid" : "a6b0f38c05c43842",
+    "uid" : "1730765023ba392",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522718,
+      "stop" : 1604783522720,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: to a square where a king is placed",
+    "uid" : "df504d4ef704e42d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604783341315,
+      "stop" : 1604783397826,
+      "duration" : 56511
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "black player turn: server connection lost",
+    "uid" : "cbe641349d7e6595",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522671,
+      "stop" : 1604783522674,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Queen",
+    "uid" : "4bbed99210694bd6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386362,
+      "stop" : 1604781386364,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: to a square where a king is placed",
+    "uid" : "aa8bba59e6d4d7b2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690178,
+      "stop" : 1604780690179,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Opponent user clicks on Quit game",
+    "uid" : "34868928e11c34dd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386229,
+      "stop" : 1604781386231,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting rules ",
+    "uid" : "ac5ebaedae47e821",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522620,
+      "stop" : 1604783522622,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E1 is has been checked once",
+    "uid" : "d07bdd9ee8049f32",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046936,
+      "stop" : 1604782046937,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After A8 is already moved once",
+    "uid" : "18c7adbd0025af57",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386296,
+      "stop" : 1604781386298,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E1 to A1",
+    "uid" : "702df40c73f20b70",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690264,
+      "stop" : 1604780690266,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After H8 is already moved once",
+    "uid" : "b3261ea7a051ab75",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522547,
+      "stop" : 1604783522549,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White to black: Verify move : check",
+    "uid" : "96802ff795c30415",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690392,
+      "stop" : 1604780690393,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 2 can access board on his turn",
+    "uid" : "e007f8d3d51ccc4c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522424,
+      "stop" : 1604783522427,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black to White: Verify move : check mate",
+    "uid" : "7e880bd3f3930196",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690404,
+      "stop" : 1604780690405,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "No Player can make 2 or more consecutive moves",
+    "uid" : "95868c812669fcf6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690161,
+      "stop" : 1604780690165,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : White",
+    "uid" : "27256f1ee2d5866a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -639,21 +1003,541 @@
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Black player quits game: on his turn",
-    "uid" : "13618a9e317e5358",
+    "name" : "Check chess board peices are set up correctly on match start",
+    "uid" : "3253828c35a50a27",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604781118630,
+      "stop" : 1604781142490,
+      "duration" : 23860
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : White",
+    "uid" : "9e95022363e92283",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1604782047052,
-      "stop" : 1604782047054,
+      "start" : 1604781386449,
+      "stop" : 1604781386450,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Opponent user clicks on Quit game",
+    "uid" : "e5d338584856d21c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046849,
+      "stop" : 1604782046851,
       "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
+    "name" : "Verify valid move direction : Pawn",
+    "uid" : "f080a5a3b8accf0d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046983,
+      "stop" : 1604782046985,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : Black",
+    "uid" : "c1783a2101f20514",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386454,
+      "stop" : 1604781386455,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E8 is already moved once",
+    "uid" : "e5ee8dce55d0086f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690319,
+      "stop" : 1604780690321,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: Not on his turn",
+    "uid" : "4753c4a41a79ab54",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690423,
+      "stop" : 1604780690425,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Queen",
+    "uid" : "aee763d43c10b6b7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046978,
+      "stop" : 1604782046979,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E1 is has been checked once",
+    "uid" : "fd65b7399b00f1f2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522564,
+      "stop" : 1604783522567,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black player quits game: connection lost from server",
+    "uid" : "2a1433cdcc2651d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522684,
+      "stop" : 1604783522686,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Opponent user : Refresh the live session",
+    "uid" : "da5a22cf4dbec771",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046859,
+      "stop" : 1604782046861,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Main user Refresh the Live session",
+    "uid" : "2bf0c8fbe6b26b50",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046854,
+      "stop" : 1604782046856,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After H1 is already moved once",
+    "uid" : "38ee81406a20ff44",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690294,
+      "stop" : 1604780690296,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Opponent user : Refresh the live session",
+    "uid" : "b6513eb5066aa6aa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690249,
+      "stop" : 1604780690250,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E8 is has been checked once",
+    "uid" : "40e64bb5ac20a8ab",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386314,
+      "stop" : 1604781386316,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify player can not move opponet peices",
+    "uid" : "5cebb1cd5eee23be",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386332,
+      "stop" : 1604781386334,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player turn: server connection lost",
+    "uid" : "887f7bd9e3e47ce8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690428,
+      "stop" : 1604780690429,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 2 can access board on his turn",
+    "uid" : "e97739fdf33cf1e3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690203,
+      "stop" : 1604780690204,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Rook",
+    "uid" : "e9ff4acc6b20bced",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386347,
+      "stop" : 1604781386349,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 3 can not access board on live game",
+    "uid" : "87ede9f225b1689c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386192,
+      "stop" : 1604781386195,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: to a square where a king is placed",
+    "uid" : "8794fd7c99bce69c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604781260777,
+      "stop" : 1604781295575,
+      "duration" : 34798
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Valid peices are accisable as per turn",
+    "uid" : "e8e29e760f29e45d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604781330085,
+      "stop" : 1604781364606,
+      "duration" : 34521
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "black player turn: server connection lost",
+    "uid" : "166fbd539b3168ae",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386425,
+      "stop" : 1604781386427,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black player quits game: Not on his turn",
+    "uid" : "260e9bd0f62f2604",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386445,
+      "stop" : 1604781386447,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 2 can not access board upon Player 1 Turn",
+    "uid" : "d1d824d7f4c6c158",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522451,
+      "stop" : 1604783522453,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Bishop",
+    "uid" : "f6e45703201f4e47",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690360,
+      "stop" : 1604780690361,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E1 is has been checked once",
+    "uid" : "12c6da84378d02d4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690329,
+      "stop" : 1604780690330,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 2 can not access board upon Player 1 Turn",
+    "uid" : "4f8b5203c8eb3f2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386212,
+      "stop" : 1604781386214,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1 can not access board upon Player 2 Turn",
+    "uid" : "fe4c572a99405202",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386199,
+      "stop" : 1604781386200,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player turn: server connection lost",
+    "uid" : "11df583fec4df4ff",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386418,
+      "stop" : 1604781386419,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "black player turn: server connection lost",
+    "uid" : "aec9d523926afb4c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047036,
+      "stop" : 1604782047038,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify when the MainUser user quits the session",
+    "uid" : "7e13710dcb1b513d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690259,
+      "stop" : 1604780690261,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player turn: server connection lost",
+    "uid" : "999bb927b648e663",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522665,
+      "stop" : 1604783522667,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify captures rules ",
+    "uid" : "f27f8983252855cb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690387,
+      "stop" : 1604780690388,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player turn: server connection lost",
+    "uid" : "caa7e50ea7e77dea",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047031,
+      "stop" : 1604782047033,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: Not on his turn",
+    "uid" : "2e3329aa102e05e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047026,
+      "stop" : 1604782047028,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 3 can not access board on live game",
+    "uid" : "c981ca716e675ddb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522432,
+      "stop" : 1604783522435,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is allowed to move: to a square where opponent’s piece is placed",
+    "uid" : "ba5d99115543c5d7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604781809249,
+      "stop" : 1604781850284,
+      "duration" : 41035
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "No Player can make 2 or more consecutive moves",
+    "uid" : "2ca326143a5e0d00",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604783213517,
+      "stop" : 1604783286096,
+      "duration" : 72579
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black player quits game: Not on his turn",
+    "uid" : "bfe9f3fcefce4df3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522697,
+      "stop" : 1604783522699,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White to black: Verify move : check mate",
+    "uid" : "887b6aabfe9822c9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690410,
+      "stop" : 1604780690411,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
     "name" : "Verify move direction: Knight",
-    "uid" : "eb06b555544f95d7",
+    "uid" : "fa4c4a8fbf5a2a2",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -666,501 +1550,7 @@
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
     "name" : "Verify time over for : White",
-    "uid" : "fa48579497b6ad20",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690479,
-      "stop" : 1604780690480,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After E1 is already moved once",
-    "uid" : "e749f38a28d70acc",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386291,
-      "stop" : 1604781386293,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "black player turn: server connection lost",
-    "uid" : "8065957316db5da3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047036,
-      "stop" : 1604782047038,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Piece is not allowed to move: to a square where a king is placed",
-    "uid" : "34be1a8d4aa837a5",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1604781260777,
-      "stop" : 1604781295575,
-      "duration" : 34798
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting rules ",
-    "uid" : "8eb62f7b0b7607f0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386374,
-      "stop" : 1604781386376,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After H1 is already moved once",
-    "uid" : "774ddfb663a6f365",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046903,
-      "stop" : 1604782046904,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify when the MainUser user quits the session",
-    "uid" : "1723df93ed358ff6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690259,
-      "stop" : 1604780690261,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: E1 to H1",
-    "uid" : "cb8bf8275179c768",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386262,
-      "stop" : 1604781386264,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After E8 is already moved once",
-    "uid" : "211815539fc6dfaa",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690319,
-      "stop" : 1604780690321,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Piece is not allowed to move: to a square where own piece is placed",
-    "uid" : "5ec2f558c946938",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1604781295477,
-      "stop" : 1604781330109,
-      "duration" : 34632
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Queen",
-    "uid" : "4125c1416c616513",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046978,
-      "stop" : 1604782046979,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting rules ",
-    "uid" : "f0fb89a30c3a8fd3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046988,
-      "stop" : 1604782046990,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify captures rules ",
-    "uid" : "2535964c0af684d0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046994,
-      "stop" : 1604782046996,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Piece is not allowed to move: Out of board",
-    "uid" : "bbbf148491fa78ee",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690167,
-      "stop" : 1604780690169,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black player quits game: Not on his turn",
-    "uid" : "b71425be8460e735",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386445,
-      "stop" : 1604781386447,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting rules ",
-    "uid" : "ec38a2419e0a3ee0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690382,
-      "stop" : 1604780690384,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After E8 is has been checked once",
-    "uid" : "c2ca4db9085f3389",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046931,
-      "stop" : 1604782046933,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White to black: Verify move : check mate",
-    "uid" : "46683827952023e2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690410,
-      "stop" : 1604780690411,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 1 can not access board upon Player 2 Turn",
-    "uid" : "fde9d5cff0522e2d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690213,
-      "stop" : 1604780690214,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Visiter user clicks on Quit game",
-    "uid" : "acd5dda15c710105",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690228,
-      "stop" : 1604780690230,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "No Player can make 2 or more consecutive moves",
-    "uid" : "ae71325ee20a39c9",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604781737341,
-      "stop" : 1604781809226,
-      "duration" : 71885
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 2 can not access board upon Player 1 Turn",
-    "uid" : "96754e3a361a3d30",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386212,
-      "stop" : 1604781386214,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 2 can not access board upon Player 1 Turn",
-    "uid" : "ecdacbb123be436a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046832,
-      "stop" : 1604782046833,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 2 can access board on his turn",
-    "uid" : "664afc42c653f8e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690203,
-      "stop" : 1604780690204,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 1(WHITE) can not access BLACK peices on his turn",
-    "uid" : "a5302266bd90526d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690199,
-      "stop" : 1604780690201,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify when the MainUser user quits the session",
-    "uid" : "ac82d00401ad7c91",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690254,
-      "stop" : 1604780690255,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Visiter user clicks on Quit game",
-    "uid" : "ee28f8f7fd68d331",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386217,
-      "stop" : 1604781386218,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Visiter user clicks on Quit game",
-    "uid" : "596b3b67984a1c16",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046837,
-      "stop" : 1604782046838,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Opponent user clicks on Quit game",
-    "uid" : "17dc77339897d4ca",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690238,
-      "stop" : 1604780690240,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player quits game: Not on his turn",
-    "uid" : "5acc32db40e0bb05",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386413,
-      "stop" : 1604781386414,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Valid peices are accisable as per turn",
-    "uid" : "c61e45321a4255d0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604781989027,
-      "stop" : 1604782055136,
-      "duration" : 66109
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: E1 to A1",
-    "uid" : "d857656313e5d3b3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046875,
-      "stop" : 1604782046876,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black to White: Verify move : check",
-    "uid" : "545155e08717f8e0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386392,
-      "stop" : 1604781386394,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player turn: server connection lost",
-    "uid" : "76929f75ebbe4847",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386418,
-      "stop" : 1604781386419,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : King",
-    "uid" : "8fd5239922bdf445",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690366,
-      "stop" : 1604780690368,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After A1 is already moved once",
-    "uid" : "8926888fd5cb3485",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690289,
-      "stop" : 1604780690291,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Check chess board peices are set up correctly on match start",
-    "uid" : "dfbb6802efe0859d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604781665384,
-      "stop" : 1604781689580,
-      "duration" : 24196
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 1(WHITE) can not access BLACK peices on his turn",
-    "uid" : "ea9d91103eb910ca",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604782046787,
-      "stop" : 1604782067979,
-      "duration" : 21192
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify time over for : White",
-    "uid" : "171bf029fb3c6e11",
+    "uid" : "933694e4e0dd8632",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -1172,99 +1562,8 @@
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Verify casting: After E8 is already moved once",
-    "uid" : "ac63d101e710bdf2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046923,
-      "stop" : 1604782046924,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 2 can access board on his turn",
-    "uid" : "ba7ed0d765c63921",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386185,
-      "stop" : 1604781386187,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Piece is allowed to move: to a square where opponent’s piece is placed",
-    "uid" : "3e70106777cb0034",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690172,
-      "stop" : 1604780690174,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: E8 to H8",
-    "uid" : "cb4352246ec17553",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386268,
-      "stop" : 1604781386270,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 1(WHITE) can not access BLACK peices on his turn",
-    "uid" : "664e78118898d4f5",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604781386166,
-      "stop" : 1604781407554,
-      "duration" : 21388
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Rook",
-    "uid" : "bc6b6658b28a1a58",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046963,
-      "stop" : 1604782046965,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: E1 to H1",
-    "uid" : "5e1ba9e2a5d520c8",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046881,
-      "stop" : 1604782046883,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
     "name" : "black player turn: server connection lost",
-    "uid" : "3f0d169905cc5f0c",
+    "uid" : "5e1fcce5eb0a5a41",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -1276,580 +1575,21 @@
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Verify captures rules ",
-    "uid" : "c48014744bdb655",
+    "name" : "Piece is not allowed to move: to a square where own piece is placed",
+    "uid" : "1c1903c3321fc649",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
+    "status" : "passed",
     "time" : {
-      "start" : 1604780690387,
-      "stop" : 1604780690388,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify time over for : White",
-    "uid" : "60479cbeb7fca777",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386449,
-      "stop" : 1604781386450,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Queen",
-    "uid" : "c9e03d17a8971be5",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386362,
-      "stop" : 1604781386364,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After E1 is has been checked once",
-    "uid" : "56bdf62c3f38f8d0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690329,
-      "stop" : 1604780690330,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: E8 to H8",
-    "uid" : "379568c2313c24c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046891,
-      "stop" : 1604782046892,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black to White: Verify move : check",
-    "uid" : "cb4185308c19d150",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690399,
-      "stop" : 1604780690401,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify time over for : Black",
-    "uid" : "6688797514659270",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386467,
-      "stop" : 1604781386470,
-      "duration" : 3
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player quits game: on his turn",
-    "uid" : "9198d4ea0fc9dcbb",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047021,
-      "stop" : 1604782047024,
-      "duration" : 3
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Opponent user clicks on Quit game",
-    "uid" : "87d0934310cc9508",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046849,
-      "stop" : 1604782046851,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 3 can not access board on live game",
-    "uid" : "71ed521b961d6068",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046816,
-      "stop" : 1604782046818,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Knight",
-    "uid" : "5ddd9f8ff4e15d1d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046958,
-      "stop" : 1604782046960,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Opponent user clicks on Quit game",
-    "uid" : "b4af45facf338f94",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386229,
-      "stop" : 1604781386231,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Bishop",
-    "uid" : "1c3bc410df620101",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386352,
-      "stop" : 1604781386354,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Main user clicks on Quit game",
-    "uid" : "3a479c1bf9549410",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046843,
-      "stop" : 1604782046845,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Main user Refresh the Live session",
-    "uid" : "7ca3f4bd348b3113",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690244,
-      "stop" : 1604780690246,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "black player turn: server connection lost",
-    "uid" : "449aca8d33a7723c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386425,
-      "stop" : 1604781386427,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: E1 to H1",
-    "uid" : "2cc1db919dd2e28",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690270,
-      "stop" : 1604780690271,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : King",
-    "uid" : "43510266dbaf44d2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386357,
-      "stop" : 1604781386359,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After E1 is already moved once",
-    "uid" : "28c7fa8629b2e502",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690299,
-      "stop" : 1604780690300,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify time over for : White",
-    "uid" : "10a20acb84f1c188",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690469,
-      "stop" : 1604780690473,
-      "duration" : 4
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black player quits game: Not on his turn",
-    "uid" : "d91ca1e8c147464d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047057,
-      "stop" : 1604782047059,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify captures rules ",
-    "uid" : "8c378d4bdeb5923b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386379,
-      "stop" : 1604781386381,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: E8 to H8",
-    "uid" : "4179b9a3f5b6deae",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690276,
-      "stop" : 1604780690278,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player quits game: connection lost from server",
-    "uid" : "555c884da0f343cd",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047041,
-      "stop" : 1604782047043,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player turn: server connection lost",
-    "uid" : "6e97b8a69812511",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047031,
-      "stop" : 1604782047033,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black player quits game: connection lost from server",
-    "uid" : "f89d366440987822",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047046,
-      "stop" : 1604782047048,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player turn: server connection lost",
-    "uid" : "cce08e09664c5efb",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690428,
-      "stop" : 1604780690429,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Knight",
-    "uid" : "4912cfdefa8a5484",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386342,
-      "stop" : 1604781386344,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After H8 is already moved once",
-    "uid" : "4ea71f9560ffeb5",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386302,
-      "stop" : 1604781386304,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Valid peices are accisable as per turn",
-    "uid" : "7df6080e10bb5411",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690189,
-      "stop" : 1604780690191,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 1 can not access board upon Player 2 Turn",
-    "uid" : "ec1dfb7764e2e09a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046821,
-      "stop" : 1604782046823,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Queen",
-    "uid" : "c4db0bd5441247c2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690371,
-      "stop" : 1604780690372,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White to black: Verify move : check mate",
-    "uid" : "daa4b66641d0688c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047015,
-      "stop" : 1604782047017,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 3 can not access board on live game",
-    "uid" : "f04cac7a5f3006d3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386192,
-      "stop" : 1604781386195,
-      "duration" : 3
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black player quits game: connection lost from server",
-    "uid" : "71b2353a0d035660",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386434,
-      "stop" : 1604781386435,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After A8 is already moved once",
-    "uid" : "32ed6ae43e21337f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046913,
-      "stop" : 1604782046915,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Pawn",
-    "uid" : "c61d64dfbf3d8ed0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386369,
-      "stop" : 1604781386371,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: E8 to H8",
-    "uid" : "154a6299d5b0f80e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690283,
-      "stop" : 1604780690285,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player quits game: connection lost from server",
-    "uid" : "9fb5052812d3721",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386429,
-      "stop" : 1604781386430,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After A1 is already moved once",
-    "uid" : "63586c2c7081f9b6",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046898,
-      "stop" : 1604782046899,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black to White: Verify move : check mate",
-    "uid" : "ba7288f455ca396d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690404,
-      "stop" : 1604780690405,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Opponent user : Refresh the live session",
-    "uid" : "ccfb5e7fb85c0d18",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690249,
-      "stop" : 1604780690250,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After H1 is already moved once",
-    "uid" : "720298ba72f6791",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386286,
-      "stop" : 1604781386288,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After E8 is has been checked once",
-    "uid" : "db4be82668e8ed8c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690324,
-      "stop" : 1604780690325,
-      "duration" : 1
+      "start" : 1604781922890,
+      "stop" : 1604781979457,
+      "duration" : 56567
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
     "name" : "Player 2 can not access board upon Player 1 Turn",
-    "uid" : "287410326fe098ab",
+    "uid" : "70e51281329b60d0",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -1861,346 +1601,8 @@
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Verify casting: After E8 is has been checked once",
-    "uid" : "8d30969ea0314e05",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386314,
-      "stop" : 1604781386316,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn",
-    "uid" : "afc0cb17b5088751",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604782025514,
-      "stop" : 1604782061965,
-      "duration" : 36451
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Check chess board peices are set up correctly on match start",
-    "uid" : "857b106ba7112451",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604781118630,
-      "stop" : 1604781142490,
-      "duration" : 23860
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify player can not move opponet peices",
-    "uid" : "5d9dbafafdbe5fe2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046947,
-      "stop" : 1604782046949,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify time over for : White",
-    "uid" : "589d3488de5fec85",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047062,
-      "stop" : 1604782047063,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Opponent user : Refresh the live session",
-    "uid" : "c2e268f6c9d1d9dd",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386240,
-      "stop" : 1604781386241,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Piece is allowed to move: to a square where opponent’s piece is placed",
-    "uid" : "ea5a3e257c1b854c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604781809249,
-      "stop" : 1604781850284,
-      "duration" : 41035
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 1 can not access board upon Player 2 Turn",
-    "uid" : "6f3d8293d3ab508e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386199,
-      "stop" : 1604781386200,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Main user Refresh the Live session",
-    "uid" : "57ad0aa9b7434774",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046854,
-      "stop" : 1604782046856,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify move direction: Knight",
-    "uid" : "a9b4d9f7ed949c0f",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386326,
-      "stop" : 1604781386328,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player quits game: Not on his turn",
-    "uid" : "61aedb12c46b09b9",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782047026,
-      "stop" : 1604782047028,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After A8 is already moved once",
-    "uid" : "f7c694e3de417b67",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386296,
-      "stop" : 1604781386298,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify when the MainUser user quits the session",
-    "uid" : "176ab9cf0ed36b61",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386246,
-      "stop" : 1604781386247,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black player quits game: on his turn",
-    "uid" : "3e49ba28ceecd348",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386439,
-      "stop" : 1604781386441,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Bishop",
-    "uid" : "9b20cac26d6f08bf",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046968,
-      "stop" : 1604782046970,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 2 can access board on his turn",
-    "uid" : "db57596e5b35f45a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046809,
-      "stop" : 1604782046811,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Piece is not allowed to move: Out of board",
-    "uid" : "5acf22d7e4de0e9b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1604781768185,
-      "stop" : 1604781798985,
-      "duration" : 30800
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White to black: Verify move : check mate",
-    "uid" : "a863cfe5bd5a4396",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386403,
-      "stop" : 1604781386405,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Pawn",
-    "uid" : "5e4c91dd654a4ba3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690377,
-      "stop" : 1604780690379,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Black to White: Verify move : check mate",
-    "uid" : "bc4208ed88780d30",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604781386397,
-      "stop" : 1604781386398,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 3 can not access board on live game",
-    "uid" : "8ea2f692535526bf",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690208,
-      "stop" : 1604780690210,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
     "name" : "Player 2 can not access board upon Player 1 Turn",
-    "uid" : "34fb73bd0b97d74a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046826,
-      "stop" : 1604782046828,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify casting: After A8 is already moved once",
-    "uid" : "c2ee1f59ec0f6cb9",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690305,
-      "stop" : 1604780690307,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Bishop",
-    "uid" : "f3b5a6aa48f0688c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690360,
-      "stop" : 1604780690361,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify move direction: Knight",
-    "uid" : "eb80d043077b1970",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604782046941,
-      "stop" : 1604782046942,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Piece is not allowed to move: to a square where own piece is placed",
-    "uid" : "f2dbec8273bb75b2",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690184,
-      "stop" : 1604780690185,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Player 2 can not access board upon Player 1 Turn",
-    "uid" : "40a7f81b5efe47ba",
+    "uid" : "26189cdd97cd68cd",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -2212,86 +1614,177 @@
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Verify casting: E8 to H8",
-    "uid" : "6201e0e2901d7ca1",
+    "name" : "White player quits game: Not on his turn",
+    "uid" : "869b0cb5af03db4b",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1604782046886,
-      "stop" : 1604782046888,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "Verify valid move direction : Knight",
-    "uid" : "5996a28a2ffca13d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690351,
-      "stop" : 1604780690353,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White player quits game: on his turn",
-    "uid" : "737aa12f78122758",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690418,
-      "stop" : 1604780690421,
-      "duration" : 3
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
-  }, {
-    "name" : "White to black: Verify move : check",
-    "uid" : "21f397d2358003d8",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "skipped",
-    "time" : {
-      "start" : 1604780690392,
-      "stop" : 1604780690393,
+      "start" : 1604781386413,
+      "stop" : 1604781386414,
       "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After A1 is already moved once",
+    "uid" : "ccf7ef2f5291a46a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522522,
+      "stop" : 1604783522524,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After A8 is already moved once",
+    "uid" : "f9f8352b4b75e3fa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046913,
+      "stop" : 1604782046915,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: to a square where own piece is placed",
+    "uid" : "ee1a591b19c1ceff",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604781295477,
+      "stop" : 1604781330109,
+      "duration" : 34632
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E1 to A1",
+    "uid" : "21c7d6c03b8e6bca",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522496,
+      "stop" : 1604783522498,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
     "name" : "Verify player can not move opponet peices",
-    "uid" : "4e35b26b2d6c9965",
+    "uid" : "f8c12b600964817e",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1604780690340,
-      "stop" : 1604780690342,
+      "start" : 1604782046947,
+      "stop" : 1604782046949,
       "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Piece is not allowed to move: to a square where a king is placed",
-    "uid" : "d2ffe5038be3eff8",
+    "name" : "Black player quits game: connection lost from server",
+    "uid" : "ff697a5f2facea85",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1604780690178,
-      "stop" : 1604780690179,
+      "start" : 1604780690447,
+      "stop" : 1604780690450,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: to a square where own piece is placed",
+    "uid" : "4e668d225f21ce4a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604783397239,
+      "stop" : 1604783453108,
+      "duration" : 55869
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify when the MainUser user quits the session",
+    "uid" : "c700cd33bd05f9e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522483,
+      "stop" : 1604783522485,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : King",
+    "uid" : "46f02517189aa3e6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386357,
+      "stop" : 1604781386359,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1(WHITE) can not access BLACK peices on his turn",
+    "uid" : "90d12850ee806374",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604781386166,
+      "stop" : 1604781407554,
+      "duration" : 21388
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Queen",
+    "uid" : "1549602178a22eaf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522608,
+      "stop" : 1604783522609,
       "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
+    "name" : "Verify casting: E1 to A1",
+    "uid" : "67203896c36dcc01",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386257,
+      "stop" : 1604781386259,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
     "name" : "Black player quits game: on his turn",
-    "uid" : "8fb7c3c1815741c",
+    "uid" : "b2940694064ede7b",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
@@ -2303,13 +1796,221 @@
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
-    "name" : "Verify casting: After A1 is already moved once",
-    "uid" : "f0ebe830df37969d",
+    "name" : "Verify casting: E1 to H1",
+    "uid" : "d8361c71a3c8143",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1604781386281,
-      "stop" : 1604781386283,
+      "start" : 1604781386262,
+      "stop" : 1604781386264,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E8 to H8",
+    "uid" : "1627975fab3ee1a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386268,
+      "stop" : 1604781386270,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: Not on his turn",
+    "uid" : "d6f693e8d5ce5e9c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522660,
+      "stop" : 1604783522661,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E1 to H1",
+    "uid" : "2a57bc63339ffed6",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522504,
+      "stop" : 1604783522508,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E1 is already moved once",
+    "uid" : "43250d3d65796239",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690299,
+      "stop" : 1604780690300,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E1 is already moved once",
+    "uid" : "17ae6e258c9447f2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522534,
+      "stop" : 1604783522537,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1 can not access board upon Player 2 Turn",
+    "uid" : "1f0f884fc76417a8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690213,
+      "stop" : 1604780690214,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : White",
+    "uid" : "17193249bfe1778a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047062,
+      "stop" : 1604782047063,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Main user Refresh the Live session",
+    "uid" : "4de6e2d3346e983a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690244,
+      "stop" : 1604780690246,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify player can not move opponet peices",
+    "uid" : "92ce706b29498abc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690340,
+      "stop" : 1604780690342,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black player quits game: Not on his turn",
+    "uid" : "de15d23fd9c7baa2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690459,
+      "stop" : 1604780690460,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Main user Refresh the Live session",
+    "uid" : "b96dc507b84de3d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522472,
+      "stop" : 1604783522474,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Visiter user clicks on Quit game",
+    "uid" : "ef5e60ff4f4887d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522457,
+      "stop" : 1604783522459,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After H1 is already moved once",
+    "uid" : "6243b9e91d5192eb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522527,
+      "stop" : 1604783522529,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Knight",
+    "uid" : "daa6a8240f9ff984",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386342,
+      "stop" : 1604781386344,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E1 is has been checked once",
+    "uid" : "23a3784e8fb5e9a2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386319,
+      "stop" : 1604781386320,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black player quits game: on his turn",
+    "uid" : "b5d722c34fcd2818",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522689,
+      "stop" : 1604783522691,
       "duration" : 2
     },
     "flaky" : false,
@@ -2317,26 +2018,1105 @@
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
     "name" : "Valid peices are accisable as per turn",
-    "uid" : "f29e2c253678d40b",
+    "uid" : "9d4968e30336610f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690189,
+      "stop" : 1604780690191,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White to black: Verify move : check",
+    "uid" : "e3623b09b5bfb05a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522631,
+      "stop" : 1604783522632,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 2 can access board on his turn",
+    "uid" : "28e8e17fb4ae46b4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386185,
+      "stop" : 1604781386187,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Valid peices are accisable as per turn",
+    "uid" : "d5033f6d85ebf55d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604781989027,
+      "stop" : 1604782055136,
+      "duration" : 66109
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White to black: Verify move : check",
+    "uid" : "e5b95168eaa9578d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386385,
+      "stop" : 1604781386387,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify when the MainUser user quits the session",
+    "uid" : "e33c9f7a2007ff27",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690254,
+      "stop" : 1604780690255,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black to White: Verify move : check",
+    "uid" : "dd14cbf406cd785d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690399,
+      "stop" : 1604780690401,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn",
+    "uid" : "e8474523fca78e64",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604783500860,
+      "stop" : 1604783537804,
+      "duration" : 36944
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: Out of board",
+    "uid" : "802470ddff6347cb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604781768185,
+      "stop" : 1604781798985,
+      "duration" : 30800
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 2 can not access board upon Player 1 Turn",
+    "uid" : "e7bcff2b93f5818",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046826,
+      "stop" : 1604782046828,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Bishop",
+    "uid" : "cdbac532da7a2775",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046968,
+      "stop" : 1604782046970,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black to White: Verify move : check mate",
+    "uid" : "ff11b60fcbbde083",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522643,
+      "stop" : 1604783522645,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Check chess board peices are set up correctly on match start",
+    "uid" : "c040a8cbed9abae7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604781665384,
+      "stop" : 1604781689580,
+      "duration" : 24196
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is allowed to move: to a square where opponent’s piece is placed",
+    "uid" : "ac8f8af93f741f58",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690172,
+      "stop" : 1604780690174,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1 can not access board upon Player 2 Turn",
+    "uid" : "9333cc5e921087ad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522439,
+      "stop" : 1604783522441,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify move direction: Knight",
+    "uid" : "dbf18604fb4cac2d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386326,
+      "stop" : 1604781386328,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Knight",
+    "uid" : "2c876cc77f5f12ea",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690351,
+      "stop" : 1604780690353,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 3 can not access board on live game",
+    "uid" : "879935f301fe04df",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046816,
+      "stop" : 1604782046818,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is allowed to move: to a square where opponent’s piece is placed",
+    "uid" : "8a308073f6b8ecc0",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "failed",
     "time" : {
-      "start" : 1604781330085,
-      "stop" : 1604781364606,
-      "duration" : 34521
+      "start" : 1604781225925,
+      "stop" : 1604781267711,
+      "duration" : 41786
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify captures rules ",
+    "uid" : "22c0fb4e058c1084",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522625,
+      "stop" : 1604783522626,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : Black",
+    "uid" : "20e19800a73cc2bc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386467,
+      "stop" : 1604781386470,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After A8 is already moved once",
+    "uid" : "716f90c18de4ac1d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690305,
+      "stop" : 1604780690307,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E8 to H8",
+    "uid" : "bfe613a12518b7b7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522517,
+      "stop" : 1604783522519,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Main user clicks on Quit game",
+    "uid" : "249c8e3cfef30b78",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522461,
+      "stop" : 1604783522462,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black to White: Verify move : check mate",
+    "uid" : "eb633814e24edc41",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386397,
+      "stop" : 1604781386398,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After H1 is already moved once",
+    "uid" : "f2bd66144bf02e7a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386286,
+      "stop" : 1604781386288,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black player quits game: on his turn",
+    "uid" : "d75f5c6639bc3add",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386439,
+      "stop" : 1604781386441,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn",
+    "uid" : "53c9c52ebd6003a5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1604781364694,
+      "stop" : 1604781399211,
+      "duration" : 34517
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: on his turn",
+    "uid" : "b7822ce860c1f453",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522654,
+      "stop" : 1604783522655,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Main user Refresh the Live session",
+    "uid" : "9b9d66fceee77a4d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386235,
+      "stop" : 1604781386237,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White player quits game: on his turn",
+    "uid" : "7ce55461588391fe",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047021,
+      "stop" : 1604782047024,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: to a square where own piece is placed",
+    "uid" : "614aad9a076fb860",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690184,
+      "stop" : 1604780690185,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1 can not access board upon Player 2 Turn",
+    "uid" : "3e7608af4371b58a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046821,
+      "stop" : 1604782046823,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Opponent user : Refresh the live session",
+    "uid" : "5d54b5855e627f66",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522477,
+      "stop" : 1604783522478,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn",
+    "uid" : "8df778ab037a9e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690194,
+      "stop" : 1604780690196,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Knight",
+    "uid" : "6b466e2ad7306716",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522585,
+      "stop" : 1604783522587,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting rules ",
+    "uid" : "9a812c0939f32747",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690382,
+      "stop" : 1604780690384,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : King",
+    "uid" : "fe8ba21508cca346",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522602,
+      "stop" : 1604783522604,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Visiter user clicks on Quit game",
+    "uid" : "8b80802d60cc8f8d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046837,
+      "stop" : 1604782046838,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting rules ",
+    "uid" : "288ecbfccfee4509",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386374,
+      "stop" : 1604781386376,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E8 to H8",
+    "uid" : "59c6cd856a2fef77",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522511,
+      "stop" : 1604783522513,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black to White: Verify move : check mate",
+    "uid" : "39d6d0dec36383c3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047010,
+      "stop" : 1604782047012,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E8 is has been checked once",
+    "uid" : "56c789b84319eca3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690324,
+      "stop" : 1604780690325,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E1 is already moved once",
+    "uid" : "5a0fa403c3d2f2ed",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386291,
+      "stop" : 1604781386293,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Check chess board peices are set up correctly on match start",
+    "uid" : "b42b73d65e9860b0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604780690083,
+      "stop" : 1604780713853,
+      "duration" : 23770
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 1(WHITE) can not access BLACK peices on his turn",
+    "uid" : "ceadd49c639c5c27",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1604783522293,
+      "stop" : 1604783543615,
+      "duration" : 21322
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Main user clicks on Quit game",
+    "uid" : "c835aa924d0d183",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690233,
+      "stop" : 1604780690235,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Knight",
+    "uid" : "bfa8ed79b99f01d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046958,
+      "stop" : 1604782046960,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : White",
+    "uid" : "f6ba499bd84cf793",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690479,
+      "stop" : 1604780690480,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Rook",
+    "uid" : "33f9eaac56b1e5da",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690356,
+      "stop" : 1604780690358,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E8 to H8",
+    "uid" : "ce37bc548f2158cb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690276,
+      "stop" : 1604780690278,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After A1 is already moved once",
+    "uid" : "fae5a2037aa23414",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690289,
+      "stop" : 1604780690291,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Pawn",
+    "uid" : "94bec7a0d8dbe7c1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386369,
+      "stop" : 1604781386371,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Rook",
+    "uid" : "3660756886364e7b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046963,
+      "stop" : 1604782046965,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting rules ",
+    "uid" : "6c189034841bb89c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046988,
+      "stop" : 1604782046990,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Pawn",
+    "uid" : "3ab36601e87aebdf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522615,
+      "stop" : 1604783522617,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Main user clicks on Quit game",
+    "uid" : "102c7b756706ed71",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386223,
+      "stop" : 1604781386225,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Visiter user clicks on Quit game",
+    "uid" : "4514e8770c87450d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386217,
+      "stop" : 1604781386218,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify when the MainUser user quits the session",
+    "uid" : "56035f3d5eeeaeae",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046864,
+      "stop" : 1604782046866,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black to White: Verify move : check",
+    "uid" : "450cf09260a17b1b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386392,
+      "stop" : 1604781386394,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E8 is already moved once",
+    "uid" : "f236b1a66ffb9c36",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386308,
+      "stop" : 1604781386310,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Main user clicks on Quit game",
+    "uid" : "dd26d8e32ba95645",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046843,
+      "stop" : 1604782046845,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black to White: Verify move : check",
+    "uid" : "35c86abc59ee5580",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047004,
+      "stop" : 1604782047005,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Bishop",
+    "uid" : "e06fff3393a51516",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386352,
+      "stop" : 1604781386354,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 2 can not access board upon Player 1 Turn",
+    "uid" : "124f51fc8804b02e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386206,
+      "stop" : 1604781386208,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 2 can not access board upon Player 1 Turn",
+    "uid" : "be284a7eb68f2f3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046832,
+      "stop" : 1604782046833,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "White to black: Verify move : check mate",
+    "uid" : "cc9e47d61007b551",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047015,
+      "stop" : 1604782047017,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Queen",
+    "uid" : "ca01b41ee1faabbf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690371,
+      "stop" : 1604780690372,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Player 2 can not access board upon Player 1 Turn",
+    "uid" : "a25d830726db56b7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522445,
+      "stop" : 1604783522447,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify move direction: Knight",
+    "uid" : "782e61d4f6b161fd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522569,
+      "stop" : 1604783522571,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : King",
+    "uid" : "df516535f79a01bf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690366,
+      "stop" : 1604780690368,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify player can not move peices in wrong place",
+    "uid" : "4073adf39b2ab5d0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386337,
+      "stop" : 1604781386339,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify player can not move peices in wrong place",
+    "uid" : "98470d3f3562c297",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690345,
+      "stop" : 1604780690346,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black player quits game: connection lost from server",
+    "uid" : "f7f01eee7afe29c4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047046,
+      "stop" : 1604782047048,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : White",
+    "uid" : "8a4fa55b35e5c85d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522704,
+      "stop" : 1604783522706,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: E8 to H8",
+    "uid" : "80a66faf2ecad28",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046886,
+      "stop" : 1604782046888,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Piece is not allowed to move: Out of board",
+    "uid" : "585c76174f9fdb9c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690167,
+      "stop" : 1604780690169,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify player can not move peices in wrong place",
+    "uid" : "d8420c211b64efe0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522580,
+      "stop" : 1604783522582,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify casting: After E8 is already moved once",
+    "uid" : "181cbe0b440371df",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782046923,
+      "stop" : 1604782046924,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black player quits game: connection lost from server",
+    "uid" : "fef99343adafe944",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604781386434,
+      "stop" : 1604781386435,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Opponent user clicks on Quit game",
+    "uid" : "3e2e6255d78d9d65",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522467,
+      "stop" : 1604783522469,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify valid move direction : Bishop",
+    "uid" : "cc163ffc54adb2bc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604783522596,
+      "stop" : 1604783522598,
+      "duration" : 2
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
   }, {
     "name" : "Verify casting: E1 to A1",
-    "uid" : "c1af90cf2381573f",
+    "uid" : "96085c623f1b7a93",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "skipped",
     "time" : {
-      "start" : 1604780690264,
-      "stop" : 1604780690266,
+      "start" : 1604782046875,
+      "stop" : 1604782046876,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Black player quits game: on his turn",
+    "uid" : "1577ca6d61c6db74",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604782047052,
+      "stop" : 1604782047054,
       "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome 86.0.4240.183 / Windows 10" ]
+  }, {
+    "name" : "Verify time over for : White",
+    "uid" : "d8d014ef5cae5a08",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1604780690469,
+      "stop" : 1604780690473,
+      "duration" : 4
     },
     "flaky" : false,
     "newFailed" : false,

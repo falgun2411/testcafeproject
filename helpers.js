@@ -13,7 +13,6 @@ export async function getSessionDetails() {
 }
 
 export async function verifyValueAndType(actual, expected) {
-
     await t.expect(actual).eql(expected)
     // console.log('expected value' + expected + 'type of:' + typeof expected + ' -- actual value:' + actual + 'type of:' + typeof actual)
     // await t.expect(actual).notTypeOf('undefined', 'In Rest API response: value is stored with typeOf undefined ')
@@ -21,9 +20,7 @@ export async function verifyValueAndType(actual, expected) {
     await t.expect(actual).notEql('undefined')
     await t.expect(actual).notEql('null')
     await t.expect(actual).notEql('')
-
 }
-
 
 export async function performDragAndDrop(fromLocation, toLocation) {
     const fromLocationArray = fromLocation.split('');
@@ -38,7 +35,6 @@ export async function performDragAndDrop(fromLocation, toLocation) {
     const targetLocation = Selector(xpathTarget);
     var flag = true
     await t.dragToElement(sourceLocation, targetLocation, { speed: 0.01 })
-
 }
 
 export async function verifyPiecesExistInRow(row) {

@@ -4,7 +4,6 @@ import { verifyValueAndType } from '../../helpers'
 import { getQueryData } from '../components/mongoconnect';
 import { getSessionDetails } from '../../helpers'
 
-
 const getLocator = new locators()
 
 class chessBoardPage {

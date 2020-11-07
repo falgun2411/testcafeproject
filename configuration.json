@@ -1,0 +1,7 @@
+{
+    "MONGO_URI": "mongodb://localhost:27017",
+    "MONGO_DB_NAME": "chess_db",
+    "MONGO_COLLECTION_NAME": "sessions",
+    "SESSION_URL": "http://localhost:3000/api/lastsession",
+    "BASE_URL": "http://localhost:8080/"
+}

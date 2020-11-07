@@ -1,5 +1,6 @@
 import { Selector } from 'testcafe';
 import { getButtonText, createBaseTestSetup } from '../helpers'
+import configData from "../configuration.json";
 
 fixture`AdditionalFunctionalCases:`
     .page`http://localhost:8080/`
@@ -12,8 +13,10 @@ fixture`AdditionalFunctionalCases:`
     .after(async t => { })
     .afterEach(async t => { })
 
-
 test.skip('Visiter user clicks on Quit game', async t => {
+
+    var data = configData.SERVER_URL
+    console.log(data)
     // currently , system terminates the session for all users if third user clicks on Quit Game button
 })
 test.skip('Main user clicks on Quit game', async t => {
@@ -193,7 +196,6 @@ test.skip('Verify time over for : White', async t => {
 test.skip('Verify time over for : Black', async t => {
     // It is not applicable for this test suite
 })
-
 
 test.skip('Verify time over for : White', async t => {
     // It is not applicable for this test suite

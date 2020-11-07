@@ -1,9 +1,9 @@
 import { Selector } from 'testcafe';
 import { verifyPiecesExistInRow, verifyPiecesNotExistInRow } from '../helpers'
 import chessboardPage from '../page-objects/pages/chessboardPage';
+import configData from "../configuration.json";
 
 const ChessBoardPage = new chessboardPage()
-
 
 fixture`Check the intial board`
     .page`http://localhost:8080/`
@@ -22,7 +22,6 @@ fixture`Check the intial board`
         console.log('After each test')
         console.log('===================================================')
     })
-
 
 test('Check chess board peices are set up correctly on match start', async t => {
     const button = Selector('button')

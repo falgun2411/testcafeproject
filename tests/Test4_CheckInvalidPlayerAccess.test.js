@@ -1,16 +1,13 @@
 import { Selector, RequestLogger } from 'testcafe';
 import locators from '../page-objects/components/locators';
 import chessboardPage from '../page-objects/pages/chessboardPage';
-import https from 'https';
 import { getSessionDetails } from '../helpers'
 import { getQueryData } from '../page-objects/components/mongoconnect'
 import gloabal from '../global';
-const axios = require('axios');
 
 const GLOBAL = new gloabal()
 const getLocator = new locators()
 const ChessBoardPage = new chessboardPage()
-
 var initialWindow, window2, window3 = null
 
 fixture`Check if invlaid player can access board`
@@ -54,7 +51,6 @@ fixture`Check if invlaid player can access board`
     })
 
 test('Player 1(WHITE) can not access BLACK peices on Player 2 turn', async t => {
-
     // player 1: C1 to D3
     console.log('User 1: perfroms drag and drop event ')
     await ChessBoardPage.performDragAndDropEvent(getLocator.whiteSourcePosition(), getLocator.whiteTargetPosition())
@@ -88,7 +84,6 @@ test('Player 1(WHITE) can not access BLACK peices on Player 2 turn', async t => 
 })
 
 test('Player 1(WHITE) can not access BLACK peices on his turn', async t => {
-
     // player 1: C1 to D3
     console.log('User 1: perfroms drag and drop event ')
     await t.dragToElement(getLocator.whiteMovesBlackSource(), getLocator.whiteMovesBlackTarget(), { speed: 0.01 })

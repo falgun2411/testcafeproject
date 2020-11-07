@@ -22,4 +22,3 @@ export async function getQueryData(query) {
     }
     return query_result
 }
-

@@ -1,16 +1,13 @@
 import { Selector, RequestLogger } from 'testcafe';
 import locators from '../page-objects/components/locators';
 import chessboardPage from '../page-objects/pages/chessboardPage';
-import https from 'https';
 import { getSessionDetails } from '../helpers'
 import { getQueryData } from '../page-objects/components/mongoconnect'
 import gloabal from '../global';
-const axios = require('axios');
 
 const GLOBAL = new gloabal()
 const getLocator = new locators()
 const ChessBoardPage = new chessboardPage()
-
 var initialWindow, window2, window3 = null
 
 fixture`Check valid moves`
@@ -54,7 +51,6 @@ fixture`Check valid moves`
     })
 
 test('No Player can make 2 or more consecutive moves', async t => {
-
     // player 1: C1 to D3
     console.log('User 1: perfroms drag and drop event ')
     await ChessBoardPage.performDragAndDropEvent(getLocator.whiteSourcePosition(), getLocator.whiteTargetPosition())
@@ -116,7 +112,6 @@ test('No Player can make 2 or more consecutive moves', async t => {
 })
 
 test('Piece is not allowed to move: Out of board', async t => {
-
     // player 1: C1 to B8
     console.log('User 1: perfroms drag and drop event ')
     await t.dragToElement(getLocator.whiteSourcePosition(), getLocator.button(), { speed: 0.01 })
@@ -134,7 +129,6 @@ test('Piece is not allowed to move: Out of board', async t => {
 })
 
 test('Piece is allowed to move: to a square where opponent’s piece is placed', async t => {
-
     // player 1: C1 to B8
     console.log('User 1: perfroms drag and drop event ')
     await ChessBoardPage.performDragAndDropEvent(getLocator.whiteSourcePosition(), getLocator.white_target_opponentKnight())
@@ -168,11 +162,9 @@ test('Piece is allowed to move: to a square where opponent’s piece is placed',
     await t.wait(1000)
     await ChessBoardPage.verifyMoveExists(getLocator.white_target_Verify())
     await ChessBoardPage.verifyValuesInAPIandDatabase()
-
 })
 
 test('Piece is not allowed to move: to a square where a king is placed', async t => {
-
     // player 1: C1 to D3
     console.log('User 1: perfroms drag and drop event ')
     await ChessBoardPage.performDragAndDropEvent(getLocator.whiteSourcePosition(), getLocator.whiteTargetPosition())
@@ -236,7 +228,6 @@ test('Piece is not allowed to move: to a square where a king is placed', async t
 })
 
 test('Piece is not allowed to move: to a square where own piece is placed', async t => {
-
     // player 1: C1 to D3
     console.log('User 1: perfroms drag and drop event ')
     await ChessBoardPage.performDragAndDropEvent(getLocator.whiteSourcePosition(), getLocator.whiteTargetPosition())

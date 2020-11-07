@@ -39,7 +39,6 @@ fixture`Check drag and drop`
         console.log('Focus on window: User 1')
         await t.switchToWindow(initialWindow);
         await ChessBoardPage.verifyPlayerDetails(1, true)
-
     })
     .after(async t => {
         console.log('After ALL')
@@ -50,9 +49,7 @@ fixture`Check drag and drop`
         console.log('===================================================')
     })
 
-
 test('Valid peices are accisable as per turn', async t => {
-
     // player 1: C1 to D3
     console.log('User 1: perfroms drag and drop event ')
     await ChessBoardPage.performDragAndDropEvent(getLocator.whiteSourcePosition(), getLocator.whiteTargetPosition())
@@ -148,7 +145,5 @@ test('Valid peices are accisable as per turn', async t => {
     await ChessBoardPage.verifyMoveExists(getLocator.blackNewTargetPosition())
     await ChessBoardPage.verifyMoveExists(getLocator.WhiteNewTargetPosition2ndAttempt())
     await ChessBoardPage.verifyMoveExists(getLocator.WhiteNewTargetPosition2ndAttempt2())
-
-
 });
 

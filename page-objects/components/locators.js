@@ -45,7 +45,6 @@ class locators {
 
         this.black_continueAttempt_souce = Selector("div[data-col='b'][data-row='8'] img:nth-child(1)");
         this.black_continueAttempt_target = Selector("div.chessboard-field:nth-child(19)");
-
     }
 }
 
