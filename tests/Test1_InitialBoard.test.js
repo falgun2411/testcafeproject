@@ -2,7 +2,10 @@ import { Selector } from 'testcafe';
 import { verifyPiecesExistInRow, verifyPiecesNotExistInRow } from '../helpers'
 import chessboardPage from '../page-objects/pages/chessboardPage';
 import configData from "../configuration.json";
+import global from '../global'
+import gloabal from '../global';
 
+const GLOABAL = new gloabal()
 const ChessBoardPage = new chessboardPage()
 
 fixture`Check the intial board`
@@ -28,7 +31,7 @@ test('Check chess board peices are set up correctly on match start', async t => 
     const message = Selector("span")
     const message1 = Selector("span:nth-child(1)")
     const message2 = Selector("span:nth-child(2)")
-    const baseUrl = 'http://localhost:8080/'
+    const baseUrl = GLOABAL.BASE_URL
 
     const initialWindow = await t.getCurrentWindow();
     await t.maximizeWindow()

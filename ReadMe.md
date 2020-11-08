@@ -25,12 +25,19 @@ OR clone the project using git in your local machine https://github.com/falgun24
 #### Run
 
 * Prerequisite: 
-- The Server and database should be running : Frontend  should be redirecting the application on the port 8080 
+- The Server and database should be running in your local machine: 
+- Frontend  should be started and running on the port 8080 
+ --> If it is on different port then kindly update the port in BASE_URL in file
+ global.js > Line no8: this.BASE_URL = "http://localhost:8080/"
+
+- backend service should be running correctly.
+- Once it is done we can execute the tests
+
 1. in terminal go to your root project directory
 (example: PS D:\AutomationProjects\testcafeproject>)
 2. to run the tests run coomand:  `npm run test` 
 3. After test is done to see the test result run:  `npm run generatereport`
-4. to run the test and see result run:  `npm run generatereport`
+4. to run the test and see result run:  `npm run testreport`
 
 
 #### Note:
