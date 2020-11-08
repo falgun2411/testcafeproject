@@ -1,551 +1,551 @@
 [ {
-  "uid" : "30d4e85ce065ca0e",
-  "name" : "Verify player can not move opponet peices",
-  "time" : {
-    "start" : 1604783522574,
-    "stop" : 1604783522576,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "cc163ffc54adb2bc",
-  "name" : "Verify valid move direction : Bishop",
-  "time" : {
-    "start" : 1604783522596,
-    "stop" : 1604783522598,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "b96dc507b84de3d5",
-  "name" : "Main user Refresh the Live session",
-  "time" : {
-    "start" : 1604783522472,
-    "stop" : 1604783522474,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "e3623b09b5bfb05a",
-  "name" : "White to black: Verify move : check",
-  "time" : {
-    "start" : 1604783522631,
-    "stop" : 1604783522632,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "249c8e3cfef30b78",
-  "name" : "Main user clicks on Quit game",
-  "time" : {
-    "start" : 1604783522461,
-    "stop" : 1604783522462,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "6f66ecf0692d421d",
-  "name" : "White to black: Verify move : check mate",
-  "time" : {
-    "start" : 1604783522649,
-    "stop" : 1604783522651,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "a09e3d0e8678240c",
+  "uid" : "c358f7dfd4ce6",
   "name" : "Valid peices are accisable as per turn",
   "time" : {
-    "start" : 1604783463892,
-    "stop" : 1604783530517,
-    "duration" : 66625
+    "start" : 1604834398766,
+    "stop" : 1604834465303,
+    "duration" : 66537
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c981ca716e675ddb",
-  "name" : "Player 3 can not access board on live game",
+  "uid" : "776738fe43e4b5f3",
+  "name" : "Verify casting: After E1 is has been checked once",
   "time" : {
-    "start" : 1604783522432,
-    "stop" : 1604783522435,
-    "duration" : 3
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "b7822ce860c1f453",
-  "name" : "White player quits game: on his turn",
-  "time" : {
-    "start" : 1604783522654,
-    "stop" : 1604783522655,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "24f796a7be48ec97",
-  "name" : "Verify when the MainUser user quits the session",
-  "time" : {
-    "start" : 1604783522490,
-    "stop" : 1604783522493,
-    "duration" : 3
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "bfe613a12518b7b7",
-  "name" : "Verify casting: E8 to H8",
-  "time" : {
-    "start" : 1604783522517,
-    "stop" : 1604783522519,
+    "start" : 1604834457139,
+    "stop" : 1604834457141,
     "duration" : 2
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "3e2e6255d78d9d65",
-  "name" : "Opponent user clicks on Quit game",
+  "uid" : "de597a362eac7bbd",
+  "name" : "Verify casting: After A8 is already moved once",
   "time" : {
-    "start" : 1604783522467,
-    "stop" : 1604783522469,
+    "start" : 1604834457108,
+    "stop" : 1604834457110,
     "duration" : 2
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "ceadd49c639c5c27",
+  "uid" : "e314d455cd4e21e0",
   "name" : "Player 1(WHITE) can not access BLACK peices on his turn",
   "time" : {
-    "start" : 1604783522293,
-    "stop" : 1604783543615,
-    "duration" : 21322
+    "start" : 1604834456876,
+    "stop" : 1604834478229,
+    "duration" : 21353
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9333cc5e921087ad",
-  "name" : "Player 1 can not access board upon Player 2 Turn",
-  "time" : {
-    "start" : 1604783522439,
-    "stop" : 1604783522441,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "ef5e60ff4f4887d5",
-  "name" : "Visiter user clicks on Quit game",
-  "time" : {
-    "start" : 1604783522457,
-    "stop" : 1604783522459,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "6b466e2ad7306716",
-  "name" : "Verify valid move direction : Knight",
-  "time" : {
-    "start" : 1604783522585,
-    "stop" : 1604783522587,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "5d54b5855e627f66",
-  "name" : "Opponent user : Refresh the live session",
-  "time" : {
-    "start" : 1604783522477,
-    "stop" : 1604783522478,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "1549602178a22eaf",
-  "name" : "Verify valid move direction : Queen",
-  "time" : {
-    "start" : 1604783522608,
-    "stop" : 1604783522609,
-    "duration" : 1
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "cbe641349d7e6595",
-  "name" : "black player turn: server connection lost",
-  "time" : {
-    "start" : 1604783522671,
-    "stop" : 1604783522674,
-    "duration" : 3
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "161988371638782d",
-  "name" : "Piece is not allowed to move: Out of board",
-  "time" : {
-    "start" : 1604783244016,
-    "stop" : 1604783274437,
-    "duration" : 30421
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac5ebaedae47e821",
-  "name" : "Verify casting rules ",
-  "time" : {
-    "start" : 1604783522620,
-    "stop" : 1604783522622,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "4b19f30580a1cd34",
-  "name" : "Piece is allowed to move: to a square where opponent’s piece is placed",
-  "time" : {
-    "start" : 1604783284753,
-    "stop" : 1604783325380,
-    "duration" : 40627
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d4553c00393d47c4",
-  "name" : "Verify casting: After E8 is already moved once",
-  "time" : {
-    "start" : 1604783522553,
-    "stop" : 1604783522555,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "21c7d6c03b8e6bca",
-  "name" : "Verify casting: E1 to A1",
-  "time" : {
-    "start" : 1604783522496,
-    "stop" : 1604783522498,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "fe8ba21508cca346",
-  "name" : "Verify valid move direction : King",
-  "time" : {
-    "start" : 1604783522602,
-    "stop" : 1604783522604,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "d1d824d7f4c6c158",
-  "name" : "Player 2 can not access board upon Player 1 Turn",
-  "time" : {
-    "start" : 1604783522451,
-    "stop" : 1604783522453,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "9e607c655ae6ee15",
-  "name" : "White player quits game: connection lost from server",
-  "time" : {
-    "start" : 1604783522677,
-    "stop" : 1604783522679,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "2a1433cdcc2651d",
-  "name" : "Black player quits game: connection lost from server",
-  "time" : {
-    "start" : 1604783522684,
-    "stop" : 1604783522686,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "df0d8fa468ede7f",
-  "name" : "Verify time over for : Black",
-  "time" : {
-    "start" : 1604783522725,
-    "stop" : 1604783522727,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "2ca326143a5e0d00",
-  "name" : "No Player can make 2 or more consecutive moves",
-  "time" : {
-    "start" : 1604783213517,
-    "stop" : 1604783286096,
-    "duration" : 72579
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "17ae6e258c9447f2",
-  "name" : "Verify casting: After E1 is already moved once",
-  "time" : {
-    "start" : 1604783522534,
-    "stop" : 1604783522537,
-    "duration" : 3
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "b3261ea7a051ab75",
-  "name" : "Verify casting: After H8 is already moved once",
-  "time" : {
-    "start" : 1604783522547,
-    "stop" : 1604783522549,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "bfe9f3fcefce4df3",
-  "name" : "Black player quits game: Not on his turn",
-  "time" : {
-    "start" : 1604783522697,
-    "stop" : 1604783522699,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "ff11b60fcbbde083",
-  "name" : "Black to White: Verify move : check mate",
-  "time" : {
-    "start" : 1604783522643,
-    "stop" : 1604783522645,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "d8420c211b64efe0",
-  "name" : "Verify player can not move peices in wrong place",
-  "time" : {
-    "start" : 1604783522580,
-    "stop" : 1604783522582,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "782e61d4f6b161fd",
+  "uid" : "8629e6d7a8174b7d",
   "name" : "Verify move direction: Knight",
   "time" : {
-    "start" : 1604783522569,
-    "stop" : 1604783522571,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "a979601d6770e1c7",
-  "name" : "Verify casting: After E8 is has been checked once",
-  "time" : {
-    "start" : 1604783522558,
-    "stop" : 1604783522560,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "d6f693e8d5ce5e9c",
-  "name" : "White player quits game: Not on his turn",
-  "time" : {
-    "start" : 1604783522660,
-    "stop" : 1604783522661,
+    "start" : 1604834457144,
+    "stop" : 1604834457145,
     "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "4e668d225f21ce4a",
-  "name" : "Piece is not allowed to move: to a square where own piece is placed",
-  "time" : {
-    "start" : 1604783397239,
-    "stop" : 1604783453108,
-    "duration" : 55869
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1730765023ba392",
-  "name" : "Verify time over for : White",
-  "time" : {
-    "start" : 1604783522718,
-    "stop" : 1604783522720,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "e007f8d3d51ccc4c",
-  "name" : "Player 2 can access board on his turn",
-  "time" : {
-    "start" : 1604783522424,
-    "stop" : 1604783522427,
-    "duration" : 3
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "df504d4ef704e42d",
-  "name" : "Piece is not allowed to move: to a square where a king is placed",
-  "time" : {
-    "start" : 1604783341315,
-    "stop" : 1604783397826,
-    "duration" : 56511
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6243b9e91d5192eb",
+  "uid" : "1609759a8e5477f8",
   "name" : "Verify casting: After H1 is already moved once",
   "time" : {
-    "start" : 1604783522527,
-    "stop" : 1604783522529,
+    "start" : 1604834457097,
+    "stop" : 1604834457099,
     "duration" : 2
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "999bb927b648e663",
-  "name" : "White player turn: server connection lost",
+  "uid" : "b3515021492ca417",
+  "name" : "White player quits game: connection lost from server",
   "time" : {
-    "start" : 1604783522665,
-    "stop" : 1604783522667,
+    "start" : 1604834457254,
+    "stop" : 1604834457256,
     "duration" : 2
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "b5d722c34fcd2818",
+  "uid" : "86a7d2e1e28f69d8",
+  "name" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn",
+  "time" : {
+    "start" : 1604834435500,
+    "stop" : 1604834472173,
+    "duration" : 36673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "367d798516c67bba",
   "name" : "Black player quits game: on his turn",
   "time" : {
-    "start" : 1604783522689,
-    "stop" : 1604783522691,
+    "start" : 1604834457265,
+    "stop" : 1604834457267,
     "duration" : 2
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "2a57bc63339ffed6",
-  "name" : "Verify casting: E1 to H1",
+  "uid" : "c100c664f59fdefb",
+  "name" : "White to black: Verify move : check",
   "time" : {
-    "start" : 1604783522504,
-    "stop" : 1604783522508,
+    "start" : 1604834457207,
+    "stop" : 1604834457208,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f0324ae0c3d68bc7",
+  "name" : "White player turn: server connection lost",
+  "time" : {
+    "start" : 1604834457242,
+    "stop" : 1604834457244,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b9cc3367a6d5834f",
+  "name" : "Verify when the MainUser user quits the session",
+  "time" : {
+    "start" : 1604834457061,
+    "stop" : 1604834457063,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f2778c1447e5aa34",
+  "name" : "Verify captures rules ",
+  "time" : {
+    "start" : 1604834457202,
+    "stop" : 1604834457204,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "67f69f5151f72c74",
+  "name" : "Player 1 can not access board upon Player 2 Turn",
+  "time" : {
+    "start" : 1604831821435,
+    "stop" : 1604831821439,
     "duration" : 4
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "cc8dbf3454bcb60e",
-  "name" : "Verify casting: After A8 is already moved once",
+  "uid" : "4a4aa83c79fe9d34",
+  "name" : "Verify casting: After A1 is already moved once",
   "time" : {
-    "start" : 1604783522541,
-    "stop" : 1604783522542,
+    "start" : 1604834457091,
+    "stop" : 1604834457093,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2b1b286c6bd9cc2a",
+  "name" : "Verify player can not move peices in wrong place",
+  "time" : {
+    "start" : 1604834457156,
+    "stop" : 1604834457158,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "442ff8df03a12a7a",
+  "name" : "Verify casting: E8 to H8",
+  "time" : {
+    "start" : 1604834457085,
+    "stop" : 1604834457086,
     "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "65025324c73e90e9",
-  "name" : "Verify valid move direction : Rook",
+  "uid" : "ae393396d7f3797e",
+  "name" : "Verify valid move direction : Knight",
   "time" : {
-    "start" : 1604783522590,
-    "stop" : 1604783522592,
+    "start" : 1604834457161,
+    "stop" : 1604834457163,
     "duration" : 2
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "3ab36601e87aebdf",
-  "name" : "Verify valid move direction : Pawn",
+  "uid" : "f24d7302c360c7bb",
+  "name" : "Black to White: Verify move : check",
   "time" : {
-    "start" : 1604783522615,
-    "stop" : 1604783522617,
-    "duration" : 2
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "fd65b7399b00f1f2",
-  "name" : "Verify casting: After E1 is has been checked once",
-  "time" : {
-    "start" : 1604783522564,
-    "stop" : 1604783522567,
+    "start" : 1604834457214,
+    "stop" : 1604834457217,
     "duration" : 3
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "22c0fb4e058c1084",
-  "name" : "Verify captures rules ",
+  "uid" : "2be6caf416e9c8d",
+  "name" : "Verify casting: After E1 is already moved once",
   "time" : {
-    "start" : 1604783522625,
-    "stop" : 1604783522626,
+    "start" : 1604834457103,
+    "stop" : 1604834457105,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a40fb67dfdb4e405",
+  "name" : "Verify casting: After E8 is already moved once",
+  "time" : {
+    "start" : 1604834457125,
+    "stop" : 1604834457127,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3189f2524cf66d3b",
+  "name" : "Verify casting rules ",
+  "time" : {
+    "start" : 1604834457195,
+    "stop" : 1604834457198,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2b52aab68dfd7560",
+  "name" : "Player 3 can not access board on live game",
+  "time" : {
+    "start" : 1604834456998,
+    "stop" : 1604834457002,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "72e7263f28c59272",
+  "name" : "black player turn: server connection lost",
+  "time" : {
+    "start" : 1604834457248,
+    "stop" : 1604834457250,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cb030013c615896b",
+  "name" : "White to black: Verify move : check mate",
+  "time" : {
+    "start" : 1604834457225,
+    "stop" : 1604834457227,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c0f2ef8f4b243e21",
+  "name" : "Piece is not allowed to move: Out of board",
+  "time" : {
+    "start" : 1604834176158,
+    "stop" : 1604834206576,
+    "duration" : 30418
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae4ad3e2d243e954",
+  "name" : "Verify casting: E1 to A1",
+  "time" : {
+    "start" : 1604834457068,
+    "stop" : 1604834457070,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "27680662245cc8b5",
+  "name" : "Piece is allowed to move: to a square where opponent’s piece is placed",
+  "time" : {
+    "start" : 1604834217788,
+    "stop" : 1604834259331,
+    "duration" : 41543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e87c6e5b8fd4acdb",
+  "name" : "White player quits game: Not on his turn",
+  "time" : {
+    "start" : 1604834457237,
+    "stop" : 1604834457239,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "20bbb04c2c4e487a",
+  "name" : "Piece is not allowed to move: to a square where a king is placed",
+  "time" : {
+    "start" : 1604834276023,
+    "stop" : 1604834334203,
+    "duration" : 58180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63cad6ef267d467",
+  "name" : "Main user Refresh the Live session",
+  "time" : {
+    "start" : 1604834457043,
+    "stop" : 1604834457045,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "47a64ab72af7f969",
+  "name" : "Verify valid move direction : King",
+  "time" : {
+    "start" : 1604834457178,
+    "stop" : 1604834457180,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "99f902e775a7a145",
+  "name" : "Verify time over for : Black",
+  "time" : {
+    "start" : 1604834457296,
+    "stop" : 1604834457298,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7970e8333b6818cf",
+  "name" : "Verify casting: E1 to H1",
+  "time" : {
+    "start" : 1604834457073,
+    "stop" : 1604834457075,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "90d11d7850c0f0a0",
+  "name" : "Verify casting: After H8 is already moved once",
+  "time" : {
+    "start" : 1604834457119,
+    "stop" : 1604834457125,
+    "duration" : 6
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7d28deffe363046b",
+  "name" : "Opponent user : Refresh the live session",
+  "time" : {
+    "start" : 1604834457049,
+    "stop" : 1604834457051,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "96028682fb98e127",
+  "name" : "Player 2 can not access board upon Player 1 Turn",
+  "time" : {
+    "start" : 1604834457011,
+    "stop" : 1604834457013,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3877fcb666c5fb68",
+  "name" : "Visiter user clicks on Quit game",
+  "time" : {
+    "start" : 1604834457022,
+    "stop" : 1604834457024,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "229061bbfc167b1e",
+  "name" : "Black player quits game: Not on his turn",
+  "time" : {
+    "start" : 1604834457272,
+    "stop" : 1604834457274,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1f489a0666cf964c",
+  "name" : "Black player quits game: connection lost from server",
+  "time" : {
+    "start" : 1604834457259,
+    "stop" : 1604834457261,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "33dd2d7e2a2704de",
+  "name" : "Verify player can not move opponet peices",
+  "time" : {
+    "start" : 1604834457151,
+    "stop" : 1604834457153,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "963e5c8c53709e96",
+  "name" : "Verify valid move direction : Pawn",
+  "time" : {
+    "start" : 1604834457188,
+    "stop" : 1604834457189,
     "duration" : 1
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "e8474523fca78e64",
-  "name" : "Player 1(WHITE) can not access BLACK peices on Player 2 turn",
+  "uid" : "48d59540a10f58a7",
+  "name" : "Verify valid move direction : Rook",
   "time" : {
-    "start" : 1604783500860,
-    "stop" : 1604783537804,
-    "duration" : 36944
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ccf7ef2f5291a46a",
-  "name" : "Verify casting: After A1 is already moved once",
-  "time" : {
-    "start" : 1604783522522,
-    "stop" : 1604783522524,
+    "start" : 1604834457167,
+    "stop" : 1604834457169,
     "duration" : 2
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "4d37a5b140f9e075",
+  "uid" : "8d9d762ba02f4415",
+  "name" : "No Player can make 2 or more consecutive moves",
+  "time" : {
+    "start" : 1604834145687,
+    "stop" : 1604834217569,
+    "duration" : 71882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be12653aab34e6c",
+  "name" : "Black to White: Verify move : check mate",
+  "time" : {
+    "start" : 1604834457219,
+    "stop" : 1604834457220,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "99bc5244f03c5cd",
+  "name" : "Piece is not allowed to move: to a square where own piece is placed",
+  "time" : {
+    "start" : 1604834332151,
+    "stop" : 1604834388260,
+    "duration" : 56109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "785323ac0eccc9b9",
+  "name" : "Verify casting: After E8 is has been checked once",
+  "time" : {
+    "start" : 1604834457132,
+    "stop" : 1604834457135,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1ae8ec5ef26ee43b",
+  "name" : "Main user clicks on Quit game",
+  "time" : {
+    "start" : 1604834457031,
+    "stop" : 1604834457035,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4da212fc1ff20ce4",
+  "name" : "Verify valid move direction : Bishop",
+  "time" : {
+    "start" : 1604834457173,
+    "stop" : 1604834457175,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a01dc3afe14d72c2",
+  "name" : "Opponent user clicks on Quit game",
+  "time" : {
+    "start" : 1604834457037,
+    "stop" : 1604834457039,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8c9fd99c8649e50e",
+  "name" : "Verify time over for : White",
+  "time" : {
+    "start" : 1604834457290,
+    "stop" : 1604834457292,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1ad6fd475170e5bd",
+  "name" : "White player quits game: on his turn",
+  "time" : {
+    "start" : 1604834457231,
+    "stop" : 1604834457234,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ea2e973e7d1f14ff",
+  "name" : "Verify valid move direction : Queen",
+  "time" : {
+    "start" : 1604834457183,
+    "stop" : 1604834457184,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "ba604f3ecbcf9389",
+  "name" : "Player 2 can access board on his turn",
+  "time" : {
+    "start" : 1604834456989,
+    "stop" : 1604834456992,
+    "duration" : 3
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8da8960bd2ba058",
   "name" : "Check chess board peices are set up correctly on match start",
   "time" : {
-    "start" : 1604783140906,
-    "stop" : 1604783165628,
-    "duration" : 24722
+    "start" : 1604834073714,
+    "stop" : 1604834098854,
+    "duration" : 25140
   },
   "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b923a9f5fb06b60c",
-  "name" : "Black to White: Verify move : check",
-  "time" : {
-    "start" : 1604783522637,
-    "stop" : 1604783522639,
-    "duration" : 2
-  },
-  "status" : "skipped",
   "severity" : "normal"
 } ]

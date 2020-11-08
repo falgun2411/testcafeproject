@@ -2,7 +2,7 @@ import { Selector } from 'testcafe';
 import { getButtonText, createBaseTestSetup } from '../helpers'
 import configData from "../configuration.json";
 
-fixture`AdditionalFunctionalCases:`
+fixture.skip`AdditionalFunctionalCases:`
     .page`http://localhost:8080/`
     .before(async t => { })
     .beforeEach(async t => {

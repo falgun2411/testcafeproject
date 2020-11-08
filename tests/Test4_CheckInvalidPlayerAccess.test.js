@@ -87,9 +87,7 @@ test('Player 1(WHITE) can not access BLACK peices on his turn', async t => {
     // player 1: C1 to D3
     console.log('User 1: perfroms drag and drop event ')
     await t.dragToElement(getLocator.whiteMovesBlackSource(), getLocator.whiteMovesBlackTarget(), { speed: 0.01 })
-    await ChessBoardPage.verifyButton_Quit_game()
-    await ChessBoardPage.verifyMessage1("It's is your turn.")
-    await ChessBoardPage.verifyMessage2("You play the white pieces.")
+    await ChessBoardPage.verifyPlayerDetails(1, true)
     await ChessBoardPage.verifyMoveDoesNotExists(getLocator.blackNewTargetPosition())
 
     const response = await getSessionDetails();
@@ -107,10 +105,6 @@ test.skip('Player 2 can access board on his turn', async t => {
 
 })
 test.skip('Player 3 can not access board on live game', async t => {
-
-})
-
-test.skip('Player 1 can not access board upon Player 2 Turn', async t => {
 
 })
 

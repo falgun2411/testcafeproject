@@ -8,6 +8,7 @@
     "test:allure": "testcafe chrome ./tests -s takeOnFails=true --reporter allure",
     "test:chrome:5": "testcafe -c 5 chrome ./tests -s takeOnFails=true",
     "test": "testcafe chrome ./tests -s takeOnFails=true --disable-page-caching --reporter allure",
+    "testreport": "testcafe chrome ./tests -s takeOnFails=true --disable-page-caching --reporter allure && npm run generatereport",
     "test:safari": "testcafe safari ./tests",
     "test:firefox": "testcafe firefox ./tests",
     "test:chrome:hreadless": "testcafe chrome:headless ./tests",

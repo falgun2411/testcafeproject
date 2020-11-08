@@ -13,12 +13,12 @@
 #### Setup
 
 1. Node.js should be installed in your machine
-2. Go to https://github.com/falgun2411/testcafeproject
-3. Either download the project and unzip it in your machine 
+2. OPen teminal install the testcafe with command `npm i -g testcafe` 
+3. Go to https://github.com/falgun2411/testcafeproject
+4. Either download the project and unzip it in your machine 
 OR clone the project using git in your local machine https://github.com/falgun2411/testcafeproject.git
-4. In terminal go to your root project directory 
+5. In terminal go to your root project directory 
 (example: PS D:\AutomationProjects\testcafeproject>)
-5. install the testcafe with `npm i -g testcafe` or  `npm install --save dev testcafe`
 6. To install all project depedancy run : `npm i` 
 
 
@@ -28,8 +28,9 @@ OR clone the project using git in your local machine https://github.com/falgun24
 - The Server and database should be running : Frontend  should be redirecting the application on the port 8080 
 1. in terminal go to your root project directory
 (example: PS D:\AutomationProjects\testcafeproject>)
-2. run  `npm run test` to run the tests
-3. run  `npm run generatereport` to see the test result
+2. to run the tests run coomand:  `npm run test` 
+3. After test is done to see the test result run:  `npm run generatereport`
+4. to run the test and see result run:  `npm run generatereport`
 
 
 #### Note:
